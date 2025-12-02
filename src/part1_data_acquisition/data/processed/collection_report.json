@@ -1,0 +1,69 @@
+{
+  "timestamp": "2025-12-01T21:22:28.516879",
+  "summary": {
+    "total_sources_attempted": 10,
+    "total_documents_collected": 10,
+    "overall_success_rate": "100.0%",
+    "firstperson_docs": 5,
+    "otherauthor_docs": 5
+  },
+  "extraction_methods": {
+    "standard_xml": [
+      "Election Night 1860",
+      "Fort Sumter Decision",
+      "Second Inaugural Address"
+    ],
+    "special_html": [
+      "Gettysburg Address"
+    ],
+    "special_resource": [
+      "Last Public Address"
+    ]
+  },
+  "detailed_results": {
+    "firstperson_success_rate": "5/5",
+    "otherauthor_success_rate": "5/5"
+  },
+  "quality_metrics": {
+    "firstperson": {
+      "total_documents": 5,
+      "content_statistics": {
+        "avg_content_length": 4362.0,
+        "min_content_length": 1280,
+        "max_content_length": 14012,
+        "empty_content_count": 0
+      },
+      "metadata_completeness": {
+        "documents_with_dates": 2,
+        "documents_with_places": 2,
+        "documents_with_from": 5,
+        "documents_with_to": 0,
+        "date_completeness": "2/5 (40.0%)",
+        "place_completeness": "2/5 (40.0%)"
+      },
+      "source_distribution": {
+        "loc": 5
+      }
+    },
+    "otherauthor": {
+      "total_documents": 5,
+      "content_statistics": {
+        "avg_content_length": 828151.2,
+        "min_content_length": 498033,
+        "max_content_length": 1238466,
+        "empty_content_count": 0
+      },
+      "metadata_completeness": {
+        "documents_with_dates": 5,
+        "documents_with_places": 0,
+        "documents_with_from": 5,
+        "documents_with_to": 0,
+        "date_completeness": "5/5 (100.0%)",
+        "place_completeness": "0/5 (0.0%)"
+      },
+      "source_distribution": {
+        "gutenberg": 5
+      }
+    }
+  }
+}

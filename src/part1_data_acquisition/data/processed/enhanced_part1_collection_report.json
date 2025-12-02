@@ -1,0 +1,116 @@
+{
+  "timestamp": "2025-12-01T19:58:18.138222",
+  "enhancement_info": {
+    "parsing_method": "Advanced XML and Text Parsers",
+    "normalization_applied": true,
+    "validation_performed": true
+  },
+  "summary": {
+    "total_sources_attempted": 10,
+    "total_documents_collected": 8,
+    "overall_success_rate": "80.0%",
+    "firstperson_docs": 3,
+    "otherauthor_docs": 5
+  },
+  "detailed_results": {
+    "firstperson_success_rate": "3/5",
+    "otherauthor_success_rate": "5/5",
+    "avg_firstperson_length": 6319.666666666667,
+    "avg_otherauthor_length": 828151.2
+  },
+  "data_quality": {
+    "firstperson_validation": {
+      "total_documents": 3,
+      "valid_documents": 3,
+      "invalid_documents": 0,
+      "validation_errors": [],
+      "duplicate_ids": [],
+      "empty_content_count": 0,
+      "missing_dates": 3,
+      "missing_metadata": 0,
+      "validation_success_rate": 100.0
+    },
+    "otherauthor_validation": {
+      "total_documents": 5,
+      "valid_documents": 5,
+      "invalid_documents": 0,
+      "validation_errors": [],
+      "duplicate_ids": [],
+      "empty_content_count": 0,
+      "missing_dates": 0,
+      "missing_metadata": 0,
+      "validation_success_rate": 100.0
+    },
+    "firstperson_quality_metrics": {
+      "total_documents": 3,
+      "content_statistics": {
+        "avg_content_length": 6319.666666666667,
+        "min_content_length": 2164,
+        "max_content_length": 14012,
+        "empty_content_count": 0
+      },
+      "metadata_completeness": {
+        "documents_with_dates": 0,
+        "documents_with_places": 0,
+        "documents_with_from": 3,
+        "documents_with_to": 0,
+        "date_completeness": "0/3 (0.0%)",
+        "place_completeness": "0/3 (0.0%)"
+      },
+      "source_distribution": {
+        "loc": 3
+      }
+    },
+    "otherauthor_quality_metrics": {
+      "total_documents": 5,
+      "content_statistics": {
+        "avg_content_length": 828151.2,
+        "min_content_length": 498033,
+        "max_content_length": 1238466,
+        "empty_content_count": 0
+      },
+      "metadata_completeness": {
+        "documents_with_dates": 5,
+        "documents_with_places": 0,
+        "documents_with_from": 5,
+        "documents_with_to": 0,
+        "date_completeness": "5/5 (100.0%)",
+        "place_completeness": "0/5 (0.0%)"
+      },
+      "source_distribution": {
+        "gutenberg": 5
+      }
+    }
+  },
+  "source_urls": {
+    "loc_sources": {
+      "Election Night 1860": {
+        "url": "https://www.loc.gov/item/mal0440500/",
+        "type": "Letter"
+      },
+      "Fort Sumter Decision": {
+        "url": "https://www.loc.gov/resource/mal.0882800",
+        "type": "Letter"
+      },
+      "Gettysburg Address": {
+        "url": "https://www.loc.gov/exhibits/gettysburg-address/ext/trans-nicolay-copy.html",
+        "type": "Speech"
+      },
+      "Second Inaugural Address": {
+        "url": "https://www.loc.gov/resource/mal.4361300",
+        "type": "Speech"
+      },
+      "Last Public Address": {
+        "url": "https://www.loc.gov/resource/mal.4361800/",
+        "type": "Speech"
+      }
+    },
+    "gutenberg_sources": [
+      "https://www.gutenberg.org/ebooks/6812",
+      "https://www.gutenberg.org/ebooks/6811",
+      "https://www.gutenberg.org/ebooks/12801/",
+      "https://www.gutenberg.org/ebooks/14004/",
+      "https://www.gutenberg.org/ebooks/18379"
+    ]
+  }
+}
