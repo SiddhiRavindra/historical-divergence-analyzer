@@ -34,9 +34,9 @@ Generated: 2025-12-02 23:17:49
 
 | Event | Author | Mean | Std | Status |
 |-------|--------|------|-----|--------|
-| election_night_1860 | Hay, John | 65.0 | 4.5 | ✅ STABLE |
-| election_night_1860 | Ketcham, Henry | 48.0 | 13.6 | ⚠️ NOISY |
-| election_night_1860 | Morse, John T., | 65.0 | 3.2 | ✅ STABLE |
+| election_night_1860 | Hay, John | 65.0 | 4.5 | STABLE |
+| election_night_1860 | Ketcham, Henry | 48.0 | 13.6 | NOISY |
+| election_night_1860 | Morse, John T., | 65.0 | 3.2 | STABLE |
 
 **Finding**: 67% of comparisons are stable (std < 10).
 
