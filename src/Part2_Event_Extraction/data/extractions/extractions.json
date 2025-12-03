@@ -1,0 +1,863 @@
+[
+  {
+    "event": "election_night_1860",
+    "source_id": "loc_mal0440500",
+    "author": "Unknown",
+    "claims": [
+      "A circular was distributed before the election by respectable citizens of New York, portraying Lincoln as a dangerous radical.",
+      "Lincoln received a letter from Truman Smith on November 7, 1860, regarding the election and its implications.",
+      "Lincoln decided not to issue a public statement to reassure the South after his election."
+    ],
+    "quotes": [
+      "I feel constrained, for the present, at least, to make no declaration for the public.",
+      "I could say nothing which I have not already said, and which is in print, and open for the inspection of all."
+    ],
+    "temporal_details": {
+      "date": "November 10, 1860"
+    },
+    "tone": "analytical",
+    "confidence": 0.9
+  },
+  {
+    "event": "fort_sumter",
+    "source_id": "loc_mal0440500",
+    "author": "Unknown",
+    "claims": [],
+    "quotes": [],
+    "temporal_details": {},
+    "tone": null,
+    "confidence": 0.0
+  },
+  {
+    "event": "gettysburg_address",
+    "source_id": "loc_mal0440500",
+    "author": "Unknown",
+    "claims": [],
+    "quotes": [],
+    "temporal_details": {},
+    "tone": null,
+    "confidence": 0.0
+  },
+  {
+    "event": "second_inaugural",
+    "source_id": "loc_mal0440500",
+    "author": "Unknown",
+    "claims": [],
+    "quotes": [],
+    "temporal_details": {},
+    "tone": null,
+    "confidence": 0.0
+  },
+  {
+    "event": "ford_theatre",
+    "source_id": "loc_mal0440500",
+    "author": "Unknown",
+    "claims": [],
+    "quotes": [],
+    "temporal_details": {},
+    "tone": null,
+    "confidence": 0.0
+  },
+  {
+    "event": "election_night_1860",
+    "source_id": "loc_mal_0882800",
+    "author": "Unknown",
+    "claims": [],
+    "quotes": [],
+    "temporal_details": {},
+    "tone": null,
+    "confidence": 0.0
+  },
+  {
+    "event": "fort_sumter",
+    "source_id": "loc_mal_0882800",
+    "author": "Unknown",
+    "claims": [
+      "Fort Sumter had neither been surrendered, evacuated nor attacked as of April 8, 1861.",
+      "Robert S. Chew was instructed to notify Governor Pickens of an attempt to supply Fort Sumter with provisions only."
+    ],
+    "quotes": [
+      "I am directed by the President of the United States to notify you to expect an attempt will be made to supply Fort Sumpter with provisions only, and that, if such attempt be not resisted, no effort to throw in men, arms, or ammunition, will be made, without further notice, or in case of an attack upon the Fort."
+    ],
+    "temporal_details": {
+      "date": "April 8, 1861",
+      "time": "6 P.M."
+    },
+    "tone": "neutral",
+    "confidence": 0.9
+  },
+  {
+    "event": "gettysburg_address",
+    "source_id": "loc_mal_0882800",
+    "author": "Unknown",
+    "claims": [],
+    "quotes": [],
+    "temporal_details": {},
+    "tone": null,
+    "confidence": 0.0
+  },
+  {
+    "event": "second_inaugural",
+    "source_id": "loc_mal_0882800",
+    "author": "Unknown",
+    "claims": [],
+    "quotes": [],
+    "temporal_details": {},
+    "tone": null,
+    "confidence": 0.0
+  },
+  {
+    "event": "ford_theatre",
+    "source_id": "loc_mal_0882800",
+    "author": "Unknown",
+    "claims": [],
+    "quotes": [],
+    "temporal_details": {},
+    "tone": null,
+    "confidence": 0.0
+  },
+  {
+    "event": "election_night_1860",
+    "source_id": "loc_gettysburg_address",
+    "author": "Unknown",
+    "claims": [],
+    "quotes": [],
+    "temporal_details": {},
+    "tone": null,
+    "confidence": 0.0
+  },
+  {
+    "event": "fort_sumter",
+    "source_id": "loc_gettysburg_address",
+    "author": "Unknown",
+    "claims": [],
+    "quotes": [],
+    "temporal_details": {},
+    "tone": null,
+    "confidence": 0.0
+  },
+  {
+    "event": "gettysburg_address",
+    "source_id": "loc_gettysburg_address",
+    "author": "Unknown",
+    "claims": [
+      "The nation was conceived in liberty and dedicated to the proposition that all men are created equal.",
+      "The address was delivered at a battlefield dedicated as a final resting place for those who died there."
+    ],
+    "quotes": [
+      "Four score and seven years ago our fathers brought forth, upon this continent, a new nation, conceived in liberty, and dedicated to the proposition that 'all men are created equal.'",
+      "The brave men, living and dead, who struggled here, have hallowed it, far above our poor power to add or detract.",
+      "that the nation, shall have a new birth of freedom, and that government of the people by the people for the people, shall not perish from the earth."
+    ],
+    "temporal_details": {
+      "date": "November 19, 1863"
+    },
+    "tone": "reverential",
+    "confidence": 1.0
+  },
+  {
+    "event": "second_inaugural",
+    "source_id": "loc_gettysburg_address",
+    "author": "Unknown",
+    "claims": [],
+    "quotes": [],
+    "temporal_details": {},
+    "tone": null,
+    "confidence": 0.0
+  },
+  {
+    "event": "ford_theatre",
+    "source_id": "loc_gettysburg_address",
+    "author": "Unknown",
+    "claims": [],
+    "quotes": [],
+    "temporal_details": {},
+    "tone": null,
+    "confidence": 0.0
+  },
+  {
+    "event": "election_night_1860",
+    "source_id": "loc_mal_4361300",
+    "author": "Unknown",
+    "claims": [],
+    "quotes": [],
+    "temporal_details": {},
+    "tone": null,
+    "confidence": 0.0
+  },
+  {
+    "event": "fort_sumter",
+    "source_id": "loc_mal_4361300",
+    "author": "Unknown",
+    "claims": [],
+    "quotes": [],
+    "temporal_details": {},
+    "tone": null,
+    "confidence": 0.0
+  },
+  {
+    "event": "gettysburg_address",
+    "source_id": "loc_mal_4361300",
+    "author": "Unknown",
+    "claims": [],
+    "quotes": [],
+    "temporal_details": {
+      "date": "November 19, 1863"
+    },
+    "tone": "neutral",
+    "confidence": 0.9
+  },
+  {
+    "event": "second_inaugural",
+    "source_id": "loc_mal_4361300",
+    "author": "Unknown",
+    "claims": [
+      "The Second Inaugural Address was delivered by Abraham Lincoln on March 4, 1865.",
+      "The only known manuscript of Lincoln's Second Inaugural Address is a fair copy.",
+      "Lincoln revised the ending of the address by pasting a slip of paper over the last two lines.",
+      "The address was intended to be printed for the press after Lincoln read it at the inaugural ceremony."
+    ],
+    "quotes": [
+      "With malice toward none; with charity for all; with firmness in the right, as God gives us to see the right, let us strive on to finish the work we are in; to bind up the nation's wounds; to care for him who shall have borne the battle, and for his widow, and his orphan — to do all which may achieve and cherish a just and a lasting peace, among ourselves, and with the world."
+    ],
+    "temporal_details": {
+      "date": "March 4, 1865"
+    },
+    "tone": "reverential",
+    "confidence": 1.0
+  },
+  {
+    "event": "ford_theatre",
+    "source_id": "loc_mal_4361300",
+    "author": "Unknown",
+    "claims": [],
+    "quotes": [],
+    "temporal_details": {},
+    "tone": null,
+    "confidence": 0.0
+  },
+  {
+    "event": "election_night_1860",
+    "source_id": "loc_mal_4361800",
+    "author": "Unknown",
+    "claims": [],
+    "quotes": [],
+    "temporal_details": {},
+    "tone": null,
+    "confidence": 0.0
+  },
+  {
+    "event": "fort_sumter",
+    "source_id": "loc_mal_4361800",
+    "author": "Unknown",
+    "claims": [],
+    "quotes": [],
+    "temporal_details": {},
+    "tone": null,
+    "confidence": 0.0
+  },
+  {
+    "event": "gettysburg_address",
+    "source_id": "loc_mal_4361800",
+    "author": "Unknown",
+    "claims": [],
+    "quotes": [],
+    "temporal_details": {},
+    "tone": null,
+    "confidence": 0.0
+  },
+  {
+    "event": "second_inaugural",
+    "source_id": "loc_mal_4361800",
+    "author": "Unknown",
+    "claims": [],
+    "quotes": [],
+    "temporal_details": {},
+    "tone": null,
+    "confidence": 0.0
+  },
+  {
+    "event": "ford_theatre",
+    "source_id": "loc_mal_4361800",
+    "author": "Unknown",
+    "claims": [],
+    "quotes": [],
+    "temporal_details": {},
+    "tone": null,
+    "confidence": 0.0
+  },
+  {
+    "event": "election_night_1860",
+    "source_id": "gutenberg_6812",
+    "author": "Unknown",
+    "claims": [
+      "The Democratic party in the South was united in favor of pro-slavery interests.",
+      "The Whig party was divided, with some members opposing the Nebraska bill.",
+      "The Know-Nothing party emerged as a significant political force on election day.",
+      "The election occurred on November 7, 1860.",
+      "The election resulted disastrously for Douglas.",
+      "Lincoln was chosen one of the members from Sangamon County by some 650 majority."
+    ],
+    "quotes": [
+      "Upon the question of slavery I know no Whiggery and no Democracy.",
+      "We protest against it, as a great moral wrong, as a breach of faith eminently unjust to the moral principles of the community."
+    ],
+    "temporal_details": {
+      "date": "November 7, 1860"
+    },
+    "tone": "analytical",
+    "confidence": 0.9
+  },
+  {
+    "event": "fort_sumter",
+    "source_id": "gutenberg_6812",
+    "author": "Unknown",
+    "claims": [],
+    "quotes": [],
+    "temporal_details": {},
+    "tone": null,
+    "confidence": 0.0
+  },
+  {
+    "event": "gettysburg_address",
+    "source_id": "gutenberg_6812",
+    "author": "Unknown",
+    "claims": [
+      "The Gettysburg Address was delivered on November 19, 1863."
+    ],
+    "quotes": [],
+    "temporal_details": {
+      "date": "November 19, 1863"
+    },
+    "tone": "neutral",
+    "confidence": 1.0
+  },
+  {
+    "event": "second_inaugural",
+    "source_id": "gutenberg_6812",
+    "author": "Unknown",
+    "claims": [
+      "The Second Inaugural Address was delivered on March 4, 1865.",
+      "The new President of the United States delivered his inaugural address amidst a national ceremonial with foreign ministers, judges, senators, and representatives present."
+    ],
+    "quotes": [
+      "The policy of my Administration will not be controlled by any timid forebodings of evil from expansion.",
+      "I fervently trust that the question is at rest, and that no sectional or ambitious or fanatical excitement may again threaten the durability of our institutions, or obscure the light of our prosperity."
+    ],
+    "temporal_details": {
+      "date": "March 4, 1865"
+    },
+    "tone": "analytical",
+    "confidence": 0.9
+  },
+  {
+    "event": "ford_theatre",
+    "source_id": "gutenberg_6812",
+    "author": "Unknown",
+    "claims": [
+      "Abraham Lincoln was assassinated by an assassin on April 14, 1865.",
+      "Lincoln's death was a tragic event that saddened many hearts."
+    ],
+    "quotes": [
+      "by the bullet of the assassin",
+      "whose hearts were saddened by his tragic death."
+    ],
+    "temporal_details": {
+      "date": "April 14-15, 1865"
+    },
+    "tone": "sympathetic",
+    "confidence": 0.9
+  },
+  {
+    "event": "election_night_1860",
+    "source_id": "gutenberg_6811",
+    "author": "Unknown",
+    "claims": [
+      "The second republican national convention met in Chicago on May 16, 1860.",
+      "Lincoln received 231.5 votes on the third ballot, which was not announced.",
+      "Lincoln was nominated for president on May 16, 1860.",
+      "Lincoln was introduced to the audience by E. D. Baker.",
+      "Lincoln's inaugural address was submitted for criticism to a few trusted friends, with Seward providing significant feedback.",
+      "Lincoln was sworn into office by Chief Justice Taney immediately after his address.",
+      "Election Night occurred on November 6, 1860."
+    ],
+    "quotes": [
+      "I have to ask this convention whether they are prepared to go upon the record before the country as voting down the words of the Declaration of Independence.",
+      "You are nominated.",
+      "I shall take care, as the Constitution itself expressly enjoins upon me, that the laws of the Union shall be faithfully executed in all the states.",
+      "In your hands, my dissatisfied fellow-countrymen, and not in mine, is the momentous issue of civil war."
+    ],
+    "temporal_details": {
+      "date": "November 6, 1860"
+    },
+    "tone": "reverential",
+    "confidence": 0.9
+  },
+  {
+    "event": "fort_sumter",
+    "source_id": "gutenberg_6811",
+    "author": "Unknown",
+    "claims": [
+      "The Fort Sumter Decision occurred from April 12-14, 1861.",
+      "Lincoln stated he would use the power confided to him to hold, occupy, and possess the property and places belonging to the government.",
+      "Lincoln issued a call for 75,000 volunteers to serve for three months the morning after the evacuation of Fort Sumter.",
+      "Virginia passed the ordinance of secession on April 17th after the fall of Fort Sumter."
+    ],
+    "quotes": [
+      "I shall take care, as the Constitution itself expressly enjoins upon me, that the laws of the Union shall be faithfully executed in all the states.",
+      "In doing this, there need be no bloodshed or violence, and there shall be none unless it is forced upon the national authority.",
+      "The government will not assail you. You can have no conflict without being yourselves the aggressors.",
+      "Lincoln's patience, forbearance, conciliation had accomplished this marvel.",
+      "Virginia was dragooned into secession."
+    ],
+    "temporal_details": {
+      "date": "April 12-14, 1861",
+      "time": "April 15th"
+    },
+    "tone": "analytical",
+    "confidence": 0.9
+  },
+  {
+    "event": "gettysburg_address",
+    "source_id": "gutenberg_6811",
+    "author": "Unknown",
+    "claims": [
+      "The Gettysburg Address was delivered on November 19, 1863.",
+      "Lincoln's part in the event was to pronounce the formal words of dedication.",
+      "The speech was not intended for an oration; Edward Everett was the orator of the occasion.",
+      "Lincoln wrote the address on a sheet of foolscap paper in odd moments.",
+      "The speech is described as prose in form but poetic in effect."
+    ],
+    "quotes": [
+      "Fourscore and seven years ago, our fathers brought forth on this continent a new nation, conceived in liberty and dedicated to the proposition that all men are created equal.",
+      "The world will little note, nor long remember, what we say here, but it can never forget what they did here.",
+      "that this nation, under God, shall have a new birth of freedom,--and that government of the people, by the people, for the people, shall not perish from the earth."
+    ],
+    "temporal_details": {
+      "date": "November 19, 1863"
+    },
+    "tone": "reverential",
+    "confidence": 0.9
+  },
+  {
+    "event": "second_inaugural",
+    "source_id": "gutenberg_6811",
+    "author": "Unknown",
+    "claims": [
+      "The Second Inaugural Address was delivered on March 4, 1865.",
+      "Lincoln had no new policy to proclaim in this address, as he was to continue the policy of the past four years.",
+      "The end of the war was almost in sight at the time of the address.",
+      "The address contains a spirit that gives it marvelous grandeur.",
+      "The Second Inaugural Address took place on March 4, 1865.",
+      "Lincoln was in excellent spirits on Good Friday, April 14, 1865, just before his assassination.",
+      "Lincoln expressed a desire to take the oath of office before March 4th due to the worsening situation.",
+      "Lincoln felt that every hour added to the difficulties he would face as President.",
+      "Lincoln's inaugural address was read on March 4, 1865."
+    ],
+    "quotes": [
+      "Fondly do we hope, fervently do we pray, that this mighty scourge of war may speedily pass away.",
+      "With malice toward none, with charity for all, with firmness in the right, as God gives us to see the right, let us strive to finish the work we are in; to bind up the nation's wounds; to care for him who shall have home the battle, and for his widow, and his orphan; to do all which may achieve and cherish a just and lasting peace among ourselves and with all nations.",
+      "\"I would willingly take out of my life a period in years equal to the two months which intervene between now and the inauguration, to take the oath of office now.\"",
+      "\"I am in the garden of Gethsemane now, and my cup of bitterness is full to overflowing.\"",
+      "\"Without the assistance of that Divine Being who ever attended him, I cannot succeed. With that assistance, I cannot fail.\""
+    ],
+    "temporal_details": {
+      "date": "March 4, 1865"
+    },
+    "tone": "reverential",
+    "confidence": 0.9
+  },
+  {
+    "event": "ford_theatre",
+    "source_id": "gutenberg_6811",
+    "author": "Unknown",
+    "claims": [
+      "Lincoln was assassinated on the night of April 14-15, 1865.",
+      "J. Wilkes Booth was the assassin who shot Lincoln.",
+      "Lincoln died at twenty minutes after seven o'clock on the morning of April 15th.",
+      "The assassination took place at Ford's Theatre.",
+      "The band of assassins planned to murder other officials, including Seward."
+    ],
+    "quotes": [
+      "Surely never did the telegraph hear heavier news than it flashed the message, 'Lincoln has been assassinated.'",
+      "In his death the nation lost its greatest hero; in his death the South lost its most just friend."
+    ],
+    "temporal_details": {
+      "date": "April 14-15, 1865",
+      "time": "twenty minutes after seven o'clock"
+    },
+    "tone": "sympathetic",
+    "confidence": 1.0
+  },
+  {
+    "event": "election_night_1860",
+    "source_id": "gutenberg_12801",
+    "author": "Unknown",
+    "claims": [
+      "The presidential election took place on November 6, 1860.",
+      "The President offered full pardon and restoration of rights to certain repentant rebels who took a prescribed oath.",
+      "Election Night occurred on November 6, 1860.",
+      "Mr. Greeley was misled into lending himself to the schemes of some Southerners at Niagara Falls.",
+      "Mr. Lincoln authorized Mr. Greeley to visit the Southern emissaries to confer with them.",
+      "The so-called Southern envoys had no credentials and were mere adventurers."
+    ],
+    "quotes": [
+      "the presidential election of the year of our Lord one thousand eight hundred and sixty",
+      "the United States shall guarantee to every State in this Union a republican form of government",
+      "our bleeding, bankrupt, and almost dying country",
+      "to assist in selecting and arranging a candidate and a platform for the Chicago Convention.",
+      "no steps can be taken towards peace ... unless accompanied with an abandonment of slavery."
+    ],
+    "temporal_details": {
+      "date": "November 6, 1860"
+    },
+    "tone": "analytical",
+    "confidence": 0.9
+  },
+  {
+    "event": "fort_sumter",
+    "source_id": "gutenberg_12801",
+    "author": "Unknown",
+    "claims": [
+      "Lincoln's intention to provision Fort Sumter",
+      "Lincoln's admission of blame for failure to relieve Fort Sumter",
+      "The Fort Sumter Decision occurred from April 12-14, 1861.",
+      "Abraham Lincoln issued the Proclamation of Emancipation on January 1, 1863.",
+      "Lincoln believed that the Emancipation Proclamation was a legitimate exercise of war power."
+    ],
+    "quotes": [
+      "'With malice toward none, with charity for all, with firmness in the right, as God gives us to see the right, let us strive on to finish the work we are in; to bind up the nation's wounds...'"
+    ],
+    "temporal_details": {
+      "date": "April 12-14, 1861"
+    },
+    "tone": "analytical",
+    "confidence": 0.9
+  },
+  {
+    "event": "gettysburg_address",
+    "source_id": "gutenberg_12801",
+    "author": "Unknown",
+    "claims": [
+      "The Gettysburg Address was delivered on November 19, 1863.",
+      "The address was part of a larger context of the Civil War and the political situation in the North.",
+      "Abraham Lincoln was considering the issuance of a proclamation of emancipation during the Civil War."
+    ],
+    "quotes": [],
+    "temporal_details": {
+      "date": "November 19, 1863"
+    },
+    "tone": "analytical",
+    "confidence": 0.8
+  },
+  {
+    "event": "second_inaugural",
+    "source_id": "gutenberg_12801",
+    "author": "Unknown",
+    "claims": [
+      "The Second Inaugural Address took place on March 4, 1865.",
+      "Mr. Lincoln expressed gratitude for the people's confidence in his re-election.",
+      "He emphasized the importance of maintaining the government and preventing its overthrow.",
+      "The Second Inaugural Address was delivered on March 4, 1865.",
+      "Lincoln believed that American slavery was an offense that must be removed by God.",
+      "Lincoln expressed a desire for a just and lasting peace in his address.",
+      "Lincoln spoke to a crowd gathered before the White House on April 11, 1865, after the fall of Richmond and the surrender of Lee."
+    ],
+    "quotes": [
+      "I am struggling to maintain the government, not to overthrow it.",
+      "Whoever shall be constitutionally elected in November shall be duly installed as President on the fourth of March.",
+      "May I ask those who have not differed with me to join with me in this same spirit towards those who have?",
+      "'With malice toward none, with charity for all, with firmness in the right, as God gives us to see the right, let us strive on to finish the work we are in; to bind up the nation's wounds; to care for him who shall have borne the battle, and for his widow, and his orphan,--to do all which may achieve and cherish a just and lasting peace among ourselves, and with all nations.'",
+      "'The judgments of the Lord are true and righteous altogether.'",
+      "Their honors must not be parceled out with others. I myself was near the front, and had the high pleasure of transmitting much of the good news to you; but no part of the honor, for plan or execution, is mine."
+    ],
+    "temporal_details": {
+      "date": "March 4, 1865"
+    },
+    "tone": "sympathetic",
+    "confidence": 0.9
+  },
+  {
+    "event": "ford_theatre",
+    "source_id": "gutenberg_12801",
+    "author": "Unknown",
+    "claims": [
+      "The assassination of President Abraham Lincoln occurred on April 14-15, 1865.",
+      "Lincoln was at Ford's Theatre on Good Friday when he was shot.",
+      "General Grant and his wife were invited by Lincoln to the theatre but had personal engagements.",
+      "Lincoln entered his box at the theatre around nine o'clock in the evening.",
+      "John Wilkes Booth murders Lincoln",
+      "The assassination is described as a successful plot of 1865",
+      "The assassination of President Lincoln occurred at Ford's Theatre on April 14-15, 1865.",
+      "The event is mentioned in the context of the fall of Richmond."
+    ],
+    "quotes": [
+      "'That city is filled with our enemies;' whereupon Mr. Lincoln 'somewhat impatiently retorted: 'Enemies! we must never speak of that!'",
+      "'I have seen you thus only once before; it was just before our dear Willie died.'"
+    ],
+    "temporal_details": {
+      "date": "April 14-15, 1865",
+      "time": "around nine o'clock in the evening"
+    },
+    "tone": "sympathetic",
+    "confidence": 0.9
+  },
+  {
+    "event": "election_night_1860",
+    "source_id": "gutenberg_14004",
+    "author": "Unknown",
+    "claims": [
+      "Abraham Lincoln was nominated for President of the United States on November 6, 1860.",
+      "A messenger announced Lincoln's nomination by stating that Mr. Seward was the second man on the list.",
+      "A salute of a hundred guns was fired in Springfield upon the news of Lincoln's nomination.",
+      "An enthusiastic meeting was held by the Republicans in the State House in the evening.",
+      "Lincoln invited the crowd into his house after giving a brief speech.",
+      "Election Night occurred on November 6, 1860.",
+      "Lincoln expressed his opposition to the extension of slavery.",
+      "The election night occurred on November 6, 1860.",
+      "Lincoln was engaged in a contest against Douglas."
+    ],
+    "quotes": [
+      "'Well, there is a little woman who will be interested in this news, and I will go home and tell her.'",
+      "'Gentlemen, I propose three cheers for Abraham Lincoln, the next President of the United States!'",
+      "I am an Abolitionist.",
+      "Let there be peace.",
+      "It makes little difference, very little difference, whether Judge Douglas or myself is elected to the United States Senate; but the great issue which we have submitted to you to-day is far above and beyond any personal interests or the political fortunes of any man."
+    ],
+    "temporal_details": {
+      "date": "November 6, 1860"
+    },
+    "tone": "reverential",
+    "confidence": 1.0
+  },
+  {
+    "event": "fort_sumter",
+    "source_id": "gutenberg_14004",
+    "author": "Unknown",
+    "claims": [
+      "Lincoln was advised to avoid bringing on the war by precipitate action and to let the Southerners begin it.",
+      "Lincoln foresaw that the struggle was inevitable but desired to unite the people in support of the Government and for the maintenance of the Union.",
+      "Lincoln wrote letters indicating the need to hold or retake the forts after his inauguration.",
+      "The Confederate attack upon Fort Sumter on April 12, 1861, was the signal that civil war had actually begun.",
+      "Lincoln issued a proclamation on April 15, 1861, asking for the immediate enlistment of 75,000 volunteers.",
+      "Fort Sumter was held by Anderson.",
+      "The attack on Fort Sumter occurred.",
+      "Civil War began at Fort Sumter from April 12-14, 1861",
+      "Lincoln's first call for troops created excitement"
+    ],
+    "quotes": [
+      "I told him it was plain that he had a war on his hands; that there was a determination on the part of the South to secede from the Union.",
+      "Prevent, as far as possible, any of our friends from demoralizing themselves and our cause by entertaining propositions for compromise of any sort on the slavery extension.",
+      "I shall be obliged to him to be as well prepared as he can to either hold or retake the forts, as the case may require, at and after the inauguration.",
+      "I, ABRAHAM LINCOLN, President of the United States, in virtue of the power in me vested by the Constitution and the laws, have thought fit to call forth, and hereby do call forth, the militia of the several States of the Union, to the aggregate number of seventy-five thousand, in order to suppress said combinations and to cause the laws to be duly executed."
+    ],
+    "temporal_details": {
+      "date": "April 12-14, 1861",
+      "time": "not mentioned"
+    },
+    "tone": "analytical",
+    "confidence": 0.9
+  },
+  {
+    "event": "gettysburg_address",
+    "source_id": "gutenberg_14004",
+    "author": "Unknown",
+    "claims": [
+      "Lincoln's dissatisfaction with General Meade after the battle of Gettysburg was due to his elation over the victory and desire for further successes.",
+      "Lincoln later expressed that Meade should not be censured for not doing more after his significant contributions.",
+      "The Gettysburg Address was delivered on November 19, 1863.",
+      "Lincoln's Second Inaugural Address was considered one of his most eloquent public appeals, next to the Gettysburg Address."
+    ],
+    "quotes": [
+      "Why should we censure a man who has done so much for his country because he did not do a little more?",
+      "the brave men, living and dead, who gained the victory on that hallowed field.",
+      "This address was probably, next to the Gettysburg oration, Lincoln's most eloquent and touching public appeal."
+    ],
+    "temporal_details": {
+      "date": "November 19, 1863"
+    },
+    "tone": "reverential",
+    "confidence": 0.9
+  },
+  {
+    "event": "second_inaugural",
+    "source_id": "gutenberg_14004",
+    "author": "Unknown",
+    "claims": [
+      "Lincoln's Second Inaugural Address took place on March 4, 1865.",
+      "The address included the phrase 'With Malice toward None, with Charity for All.'",
+      "Lincoln delivered the Second Inaugural Address on March 4, 1865.",
+      "The address was delivered after Lincoln took the oath of office for his second term.",
+      "The Second Inaugural Address took place on March 4, 1865."
+    ],
+    "quotes": [
+      "Fellow-Countrymen: At this second appearing to take the oath of the Presidential office, there is less occasion for an extended address than there was at the first.",
+      "With malice toward none, with charity for all, with firmness in the right, as God gives us to see the right, let us strive on to finish the work we are in; to bind up the nation's wounds; to care for him who shall have borne the battle, and for his widow and for his orphan; to do all which may achieve and cherish a just and lasting peace among ourselves and with all nations."
+    ],
+    "temporal_details": {
+      "date": "March 4, 1865",
+      "time": "shortly after twelve o'clock"
+    },
+    "tone": "reverential",
+    "confidence": 1.0
+  },
+  {
+    "event": "ford_theatre",
+    "source_id": "gutenberg_14004",
+    "author": "Unknown",
+    "claims": [
+      "Booth, the assassin, had long been plotting the murder of the President.",
+      "The President was shot at Ford's Theatre on the evening of April 14, 1865.",
+      "The President died on April 15, 1865, at 7:22 AM.",
+      "Secretary Seward and his son were also attacked on the same night.",
+      "The fear of assassination against Lincoln was widespread, leading to military measures for his protection.",
+      "General Charles P. Stone was responsible for establishing precautions to guard the Executive Mansion.",
+      "Lincoln had a dislike for an escort or guard and often exposed himself to danger.",
+      "Lincoln believed that assassination was always possible if determined upon by enemies.",
+      "Lincoln was shot at Ford's Theatre.",
+      "Booth escaped after the assassination.",
+      "A nation mourned Lincoln's death."
+    ],
+    "quotes": [
+      "The President had been carried across the street from the theatre, to the house of a Mr. Peterson.",
+      "The news of the President's assassination flashed rapidly over the country, everywhere causing the greatest consternation and grief.",
+      "Our President is dead.",
+      "If they kill me, the next man will be just as bad for them; and in a country like this, where our habits are simple, and must be, assassination is always possible, and will come if they are determined upon it.",
+      "It would never do for a President to have guards with drawn sabers at his door, as if he fancied he were, or were trying to be, or were assuming to be, an emperor."
+    ],
+    "temporal_details": {
+      "date": "April 14-15, 1865",
+      "time": "7:22 AM"
+    },
+    "tone": "sympathetic",
+    "confidence": 1.0
+  },
+  {
+    "event": "election_night_1860",
+    "source_id": "gutenberg_18379",
+    "author": "Unknown",
+    "claims": [
+      "Lincoln's election was unlooked-for and raised him to the highest place of ambition.",
+      "The Democratic party split into Northern and Southern factions during the election.",
+      "The Republican party was founded on the principle that slavery is wrong.",
+      "The Presidential election took place on November 6, 1860.",
+      "On November 10, the Legislature of South Carolina convened a specially elected Convention to decide upon the question of secession.",
+      "Lincoln believed it was important for him to be elected as much as for the army to be successful in the field.",
+      "There were rumors that if McClellan won in November, there would be an attempt to bring him irregularly into power.",
+      "Lincoln let it be known that he would stay at his post until the last lawful day."
+    ],
+    "quotes": [
+      "\"We want and must have a national policy as to slavery which deals with it as being a wrong.\"",
+      "\"I do not think myself fit for the Presidency.\"",
+      "\"I told you,\" said Lincoln afterwards, \"they could not get him to run till he had closed out the rebellion.\"",
+      "\"Well, I don't see that it will do him any good to be shot.\"",
+      "\"My boy, you are not going to be shot. I believe you when you tell me that you could not keep awake.\""
+    ],
+    "temporal_details": {
+      "date": "November 6, 1860"
+    },
+    "tone": "analytical",
+    "confidence": 0.9
+  },
+  {
+    "event": "fort_sumter",
+    "source_id": "gutenberg_18379",
+    "author": "Unknown",
+    "claims": [
+      "The Fort Sumter Decision occurred from April 12-14, 1861.",
+      "Lincoln had little he could do but watch events and prepare.",
+      "The secession of South Carolina was a movement that could not be quelled by prompt measures of repression.",
+      "Major Anderson withdrew his whole force to Fort Sumter, which he thought was the most defensible.",
+      "Buchanan decided to reinforce Anderson on Fort Sumter on the last day of 1860.",
+      "The new Southern Congress resolved to take over the forts and other property in the seceded States that had belonged to the Union.",
+      "Confederate General Beauregard was sent to Charleston to hover over Fort Sumter.",
+      "Fort Sumter was reoccupied by Union forces on April 14, 1865.",
+      "General Anderson, the old defender of Fort Sumter, hoisted the Union flag again on that date.",
+      "Davis orders attack on Fort Sumter",
+      "Fort Sumter is mentioned in the context of the commencement of war by the Confederacy"
+    ],
+    "quotes": [
+      "\"On Good Friday, April 14, 1865, with solemn religious service the Union flag was hoisted again on Fort Sumter by General Anderson, its old defender.\""
+    ],
+    "temporal_details": {
+      "date": "April 12-14, 1861"
+    },
+    "tone": "analytical",
+    "confidence": 0.9
+  },
+  {
+    "event": "gettysburg_address",
+    "source_id": "gutenberg_18379",
+    "author": "Unknown",
+    "claims": [
+      "The Gettysburg Address was delivered on November 19, 1863.",
+      "The speech was delivered by Abraham Lincoln at the dedication of a National Cemetery on the field of Gettysburg.",
+      "Edward Everett was chosen as the orator of the day at the ceremony on the battlefield of Gettysburg when Lincoln's most famous speech was spoken.",
+      "Lincoln's oratory is noted for its singular perfection of form."
+    ],
+    "quotes": [
+      "Four score and seven years ago our fathers brought forth on this continent a new nation, conceived in liberty and dedicated to the proposition that all men are created equal.",
+      "Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure.",
+      "We are met on a great battlefield of that war. We have come to dedicate a portion of that field as a final resting place for those who here gave their lives that that nation might live.",
+      "It is altogether fitting and proper that we should do this.",
+      "But, in a larger sense, we cannot dedicate--we cannot consecrate--we cannot hallow--this ground.",
+      "The brave men, living and dead, who struggled here have consecrated it far above our poor power to add or to detract.",
+      "The world will little note nor long remember what we say here, but it can never forget what they did here."
+    ],
+    "temporal_details": {
+      "date": "November 19, 1863"
+    },
+    "tone": "reverential",
+    "confidence": 1.0
+  },
+  {
+    "event": "second_inaugural",
+    "source_id": "gutenberg_18379",
+    "author": "Unknown",
+    "claims": [
+      "Abraham Lincoln took office for the second time as President of the United States on March 4, 1865.",
+      "The Second Inaugural Address reflects Lincoln's spirit of restoring peaceful society in the conquered South.",
+      "The Second Inaugural Address was read over Lincoln's grave on May 4, 1865.",
+      "Lincoln strived to finish the work he was in with malice toward none and charity toward all.",
+      "The Second Inaugural Address was delivered on March 4, 1865.",
+      "Lincoln's first and most constant duty was to hold together the jarring elements in the North.",
+      "The Second Inaugural Address took place on March 4, 1865.",
+      "Lincoln faced significant challenges during his presidency, particularly regarding the issue of secession and the Civil War.",
+      "Lincoln expressed a desire to finish the war before the election of McClellan."
+    ],
+    "quotes": [
+      "In the Inaugural address which he now delivered that spirit is none the less perceptible because he spoke of the past.",
+      "The little speech at Gettysburg, with its singular perfection of form, and the 'Second Inaugural' are the chief outstanding examples of his peculiar oratorical power.",
+      "\"with malice toward none, with charity toward all, with firmness in the right as God gave him to see the right, had striven on to finish the work that he was in.\"",
+      "From time to time I have done and said what appeared to me proper to do and say.",
+      "I hold whoever commands in Missouri or elsewhere responsible to me and not to either Radicals or Conservatives.",
+      "I told you, said Lincoln afterwards, they could not get him to run till he had closed out the rebellion."
+    ],
+    "temporal_details": {
+      "date": "March 4, 1865"
+    },
+    "tone": "reverential",
+    "confidence": 0.9
+  },
+  {
+    "event": "ford_theatre",
+    "source_id": "gutenberg_18379",
+    "author": "Unknown",
+    "claims": [
+      "Abraham Lincoln was shot at Ford's Theatre on the night of April 14, 1865.",
+      "John Wilkes Booth entered Lincoln's box unobserved and shot him.",
+      "Booth shouted 'Sic semper tyrannis' after shooting Lincoln.",
+      "Lincoln was carried to a house near the theatre and never regained consciousness.",
+      "Lincoln died at 7.22 on the morning of April 15, 1865."
+    ],
+    "quotes": [
+      "Now he belongs to the ages."
+    ],
+    "temporal_details": {
+      "date": "April 14-15, 1865",
+      "time": "after 10 o'clock"
+    },
+    "tone": "reverential",
+    "confidence": 1.0
+  }
+]

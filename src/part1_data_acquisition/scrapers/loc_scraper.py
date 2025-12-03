@@ -1,7 +1,3 @@
-"""
-Library of Congress XML scraper with metadata extraction
-"""
-
 import xml.etree.ElementTree as ET
 from typing import Dict, Optional
 import re
@@ -11,39 +7,34 @@ from scrapers.document_models import DocumentData
 logger = logging.getLogger(__name__)
 
 class LocScraper:
-    """Library of Congress XML scraper with metadata extraction"""
+    
     
     def __init__(self, base_scraper, url_discovery):
         self.scraper = base_scraper
         self.discovery = url_discovery
     
     def scrape_loc_document(self, loc_url: str, document_info: Dict) -> Optional[DocumentData]:
-        """
-        Scrape a single LoC document
-        document_info should contain: {'name': 'Election Night 1860', 'type': 'Letter'}
-        """
+        
         logger.info(f"Scraping LoC document: {document_info['name']}")
         
-        # Step 1: Find XML download URL
         xml_url = self.discovery.find_loc_xml_url(loc_url)
         if not xml_url:
             logger.error(f"Could not find XML URL for {loc_url}")
             return None
-        
-        # Step 2: Fetch XML content
+      
         result = self.scraper.fetch_url(xml_url)
         if not result.success:
             logger.error(f"Failed to fetch XML from {xml_url}")
             return None
         
-        # Step 3: Parse XML and extract metadata
+        
         try:
             metadata = self._parse_loc_xml(result.content, xml_url)
             if not metadata:
                 logger.error(f"Failed to parse XML from {xml_url}")
                 return None
             
-            # Step 4: Create standardized document
+            
             doc_data = DocumentData(
                 id=self._generate_loc_id(loc_url),
                 title=metadata.get('title', document_info['name']),
@@ -65,16 +56,16 @@ class LocScraper:
             return None
     
     def _parse_loc_xml(self, xml_content: str, xml_url: str) -> Optional[Dict]:
-        """Parse LoC XML and extract all available metadata"""
+        
         try:
-            # Handle potential encoding issues
+            
             if isinstance(xml_content, bytes):
                 xml_content = xml_content.decode('utf-8', errors='ignore')
             
             root = ET.fromstring(xml_content)
             metadata = {}
             
-            # Extract title (try multiple XML paths)
+            
             title_paths = [
                 ".//title",
                 ".//titlestmt/title", 
@@ -88,7 +79,7 @@ class LocScraper:
                     metadata['title'] = title_elem.text.strip()
                     break
             
-            # Extract date information
+            
             date_paths = [
                 ".//date",
                 ".//publicationstmt/date",
@@ -104,7 +95,7 @@ class LocScraper:
                         metadata['date'] = date_text.strip()
                         break
             
-            # Extract place information
+            
             place_paths = [
                 ".//placename",
                 ".//place",
@@ -117,7 +108,7 @@ class LocScraper:
                     metadata['place'] = place_elem.text.strip()
                     break
             
-            # Extract correspondence information (from/to)
+           
             corr_paths = [
                 (".//persname[@type='addressee']", 'to'),
                 (".//persname[@type='sender']", 'from'),
@@ -136,7 +127,7 @@ class LocScraper:
                 ".//body",
                 ".//div[@type='letter']",
                 ".//div[@type='speech']",
-                ".//p"  # Fallback to paragraphs
+                ".//p"  
             ]
             
             content_parts = []
@@ -147,7 +138,7 @@ class LocScraper:
                         text = self._extract_text_from_element(elem)
                         if text.strip():
                             content_parts.append(text)
-                    break  # Use first successful path
+                    break  
             
             metadata['content'] = '\n\n'.join(content_parts) if content_parts else ''
             
@@ -170,7 +161,7 @@ class LocScraper:
             return None
     
     def _extract_text_from_element(self, element) -> str:
-        """Recursively extract text from XML element"""
+        
         text_parts = []
         
         if element.text:
@@ -186,11 +177,10 @@ class LocScraper:
         return ' '.join(text_parts).strip()
     
     def _generate_loc_id(self, loc_url: str) -> str:
-        """Generate unique ID from LoC URL"""
-        # Extract meaningful identifier from URL
+        
+        
         match = re.search(r'/(mal\d+|mal\.\d+|[^/]+)/?$', loc_url)
         if match:
             return f"loc_{match.group(1).replace('.', '_')}"
         else:
-            # Fallback: use hash of URL
             return f"loc_{abs(hash(loc_url)) % 10000:04d}"

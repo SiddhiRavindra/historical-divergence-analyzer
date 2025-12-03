@@ -1,0 +1,362 @@
+[
+  {
+    "event": "election_night_1860",
+    "event_name": "Election Night 1860",
+    "source_id": "loc_mal0440500",
+    "source_title": "Abraham Lincoln papers: Series 1. General Correspondence. 1833-1916: Abraham Lincoln to Truman Smith, Saturday, November 10, 1860 (Lincoln will not issue a public statement to reassure the South)",
+    "author": "Abraham Lincoln",
+    "source_type": "lincoln",
+    "claims": [
+      "A circular was distributed before the election by respectable citizens of New York, portraying Lincoln as a dangerous radical.",
+      "Lincoln was advised to speak out after the election to calm public anxiety and disarm mischief makers."
+    ],
+    "quotes": [
+      "I feel constrained, for the present, at least, to make no declaration for the public.",
+      "I could say nothing which I have not already said, and which is in print, and open for the inspection of all."
+    ],
+    "temporal_details": {
+      "date": "November 10, 1860"
+    },
+    "tone": "analytical",
+    "confidence": 0.9
+  },
+  {
+    "event": "fort_sumter",
+    "event_name": "Fort Sumter Decision",
+    "source_id": "loc_mal0440500",
+    "source_title": "Abraham Lincoln papers: Series 1. General Correspondence. 1833-1916: Abraham Lincoln to Truman Smith, Saturday, November 10, 1860 (Lincoln will not issue a public statement to reassure the South)",
+    "author": "Abraham Lincoln",
+    "source_type": "lincoln",
+    "claims": [],
+    "quotes": [],
+    "temporal_details": {},
+    "tone": null,
+    "confidence": 0.0
+  },
+  {
+    "event": "gettysburg_address",
+    "event_name": "Gettysburg Address",
+    "source_id": "loc_mal0440500",
+    "source_title": "Abraham Lincoln papers: Series 1. General Correspondence. 1833-1916: Abraham Lincoln to Truman Smith, Saturday, November 10, 1860 (Lincoln will not issue a public statement to reassure the South)",
+    "author": "Abraham Lincoln",
+    "source_type": "lincoln",
+    "claims": [],
+    "quotes": [],
+    "temporal_details": {},
+    "tone": null,
+    "confidence": 0.0
+  },
+  {
+    "event": "second_inaugural",
+    "event_name": "Second Inaugural Address",
+    "source_id": "loc_mal0440500",
+    "source_title": "Abraham Lincoln papers: Series 1. General Correspondence. 1833-1916: Abraham Lincoln to Truman Smith, Saturday, November 10, 1860 (Lincoln will not issue a public statement to reassure the South)",
+    "author": "Abraham Lincoln",
+    "source_type": "lincoln",
+    "claims": [],
+    "quotes": [],
+    "temporal_details": {},
+    "tone": null,
+    "confidence": 0.0
+  },
+  {
+    "event": "ford_theatre",
+    "event_name": "Ford's Theatre Assassination",
+    "source_id": "loc_mal0440500",
+    "source_title": "Abraham Lincoln papers: Series 1. General Correspondence. 1833-1916: Abraham Lincoln to Truman Smith, Saturday, November 10, 1860 (Lincoln will not issue a public statement to reassure the South)",
+    "author": "Abraham Lincoln",
+    "source_type": "lincoln",
+    "claims": [],
+    "quotes": [],
+    "temporal_details": {},
+    "tone": null,
+    "confidence": 0.0
+  },
+  {
+    "event": "election_night_1860",
+    "event_name": "Election Night 1860",
+    "source_id": "loc_mal_0882800",
+    "source_title": "Abraham Lincoln papers: Series 1. General Correspondence. 1833-1916: Robert S. Chew to Abraham Lincoln, Monday, April 08, 1861 (Report of meeting with Gov. Pickens)",
+    "author": "Abraham Lincoln",
+    "source_type": "lincoln",
+    "claims": [],
+    "quotes": [],
+    "temporal_details": {},
+    "tone": null,
+    "confidence": 0.0
+  },
+  {
+    "event": "fort_sumter",
+    "event_name": "Fort Sumter Decision",
+    "source_id": "loc_mal_0882800",
+    "source_title": "Abraham Lincoln papers: Series 1. General Correspondence. 1833-1916: Robert S. Chew to Abraham Lincoln, Monday, April 08, 1861 (Report of meeting with Gov. Pickens)",
+    "author": "Abraham Lincoln",
+    "source_type": "lincoln",
+    "claims": [
+      "Fort Sumter had neither been surrendered, evacuated nor attacked as of April 8, 1861.",
+      "Robert S. Chew was instructed by the President to notify Governor Pickens of an attempt to supply Fort Sumter with provisions only."
+    ],
+    "quotes": [
+      "I am directed by the President of the United States to notify you to expect an attempt will be made to supply Fort Sumpter with provisions only, and that, if such attempt be not resisted, no effort to throw in men, arms, or ammunition, will be made, without further notice, or in case of an attack upon the Fort."
+    ],
+    "temporal_details": {
+      "date": "April 8, 1861",
+      "time": "6 P.M."
+    },
+    "tone": "neutral",
+    "confidence": 0.9
+  },
+  {
+    "event": "gettysburg_address",
+    "event_name": "Gettysburg Address",
+    "source_id": "loc_mal_0882800",
+    "source_title": "Abraham Lincoln papers: Series 1. General Correspondence. 1833-1916: Robert S. Chew to Abraham Lincoln, Monday, April 08, 1861 (Report of meeting with Gov. Pickens)",
+    "author": "Abraham Lincoln",
+    "source_type": "lincoln",
+    "claims": [],
+    "quotes": [],
+    "temporal_details": {},
+    "tone": null,
+    "confidence": 0.0
+  },
+  {
+    "event": "second_inaugural",
+    "event_name": "Second Inaugural Address",
+    "source_id": "loc_mal_0882800",
+    "source_title": "Abraham Lincoln papers: Series 1. General Correspondence. 1833-1916: Robert S. Chew to Abraham Lincoln, Monday, April 08, 1861 (Report of meeting with Gov. Pickens)",
+    "author": "Abraham Lincoln",
+    "source_type": "lincoln",
+    "claims": [],
+    "quotes": [],
+    "temporal_details": {},
+    "tone": null,
+    "confidence": 0.0
+  },
+  {
+    "event": "ford_theatre",
+    "event_name": "Ford's Theatre Assassination",
+    "source_id": "loc_mal_0882800",
+    "source_title": "Abraham Lincoln papers: Series 1. General Correspondence. 1833-1916: Robert S. Chew to Abraham Lincoln, Monday, April 08, 1861 (Report of meeting with Gov. Pickens)",
+    "author": "Abraham Lincoln",
+    "source_type": "lincoln",
+    "claims": [],
+    "quotes": [],
+    "temporal_details": {},
+    "tone": null,
+    "confidence": 0.0
+  },
+  {
+    "event": "election_night_1860",
+    "event_name": "Election Night 1860",
+    "source_id": "loc_gettysburg_address",
+    "source_title": "Gettysburg AddressGettysburg Address - “Nicolay Copy”",
+    "author": "Abraham Lincoln",
+    "source_type": "lincoln",
+    "claims": [],
+    "quotes": [],
+    "temporal_details": {},
+    "tone": null,
+    "confidence": 0.0
+  },
+  {
+    "event": "fort_sumter",
+    "event_name": "Fort Sumter Decision",
+    "source_id": "loc_gettysburg_address",
+    "source_title": "Gettysburg AddressGettysburg Address - “Nicolay Copy”",
+    "author": "Abraham Lincoln",
+    "source_type": "lincoln",
+    "claims": [],
+    "quotes": [],
+    "temporal_details": {},
+    "tone": null,
+    "confidence": 0.0
+  },
+  {
+    "event": "gettysburg_address",
+    "event_name": "Gettysburg Address",
+    "source_id": "loc_gettysburg_address",
+    "source_title": "Gettysburg AddressGettysburg Address - “Nicolay Copy”",
+    "author": "Abraham Lincoln",
+    "source_type": "lincoln",
+    "claims": [
+      "The nation was conceived in liberty and dedicated to the proposition that all men are created equal.",
+      "The address was delivered at a battlefield dedicated as a final resting place for those who died in the Civil War.",
+      "The living are dedicated to the task of ensuring that the dead shall not have died in vain."
+    ],
+    "quotes": [
+      "Four score and seven years ago our fathers brought forth, upon this continent, a new nation, conceived in liberty, and dedicated to the proposition that 'all men are created equal.'",
+      "The brave men, living and dead, who struggled here, have hallowed it, far above our poor power to add or detract.",
+      "that government of the people by the people for the people, shall not perish from the earth."
+    ],
+    "temporal_details": {
+      "date": "November 19, 1863"
+    },
+    "tone": "reverential",
+    "confidence": 1.0
+  },
+  {
+    "event": "second_inaugural",
+    "event_name": "Second Inaugural Address",
+    "source_id": "loc_gettysburg_address",
+    "source_title": "Gettysburg AddressGettysburg Address - “Nicolay Copy”",
+    "author": "Abraham Lincoln",
+    "source_type": "lincoln",
+    "claims": [],
+    "quotes": [],
+    "temporal_details": {},
+    "tone": null,
+    "confidence": 0.0
+  },
+  {
+    "event": "ford_theatre",
+    "event_name": "Ford's Theatre Assassination",
+    "source_id": "loc_gettysburg_address",
+    "source_title": "Gettysburg AddressGettysburg Address - “Nicolay Copy”",
+    "author": "Abraham Lincoln",
+    "source_type": "lincoln",
+    "claims": [],
+    "quotes": [],
+    "temporal_details": {},
+    "tone": null,
+    "confidence": 0.0
+  },
+  {
+    "event": "election_night_1860",
+    "event_name": "Election Night 1860",
+    "source_id": "loc_mal_4361300",
+    "source_title": "Abraham Lincoln papers: Series 3. General Correspondence. 1837-1897: Abraham Lincoln, March 4, 1865 (Second Inaugural Address; endorsed by Lincoln, April 10, 1865)",
+    "author": "Abraham Lincoln",
+    "source_type": "lincoln",
+    "claims": [],
+    "quotes": [],
+    "temporal_details": {},
+    "tone": null,
+    "confidence": 0.0
+  },
+  {
+    "event": "fort_sumter",
+    "event_name": "Fort Sumter Decision",
+    "source_id": "loc_mal_4361300",
+    "source_title": "Abraham Lincoln papers: Series 3. General Correspondence. 1837-1897: Abraham Lincoln, March 4, 1865 (Second Inaugural Address; endorsed by Lincoln, April 10, 1865)",
+    "author": "Abraham Lincoln",
+    "source_type": "lincoln",
+    "claims": [],
+    "quotes": [],
+    "temporal_details": {},
+    "tone": null,
+    "confidence": 0.0
+  },
+  {
+    "event": "gettysburg_address",
+    "event_name": "Gettysburg Address",
+    "source_id": "loc_mal_4361300",
+    "source_title": "Abraham Lincoln papers: Series 3. General Correspondence. 1837-1897: Abraham Lincoln, March 4, 1865 (Second Inaugural Address; endorsed by Lincoln, April 10, 1865)",
+    "author": "Abraham Lincoln",
+    "source_type": "lincoln",
+    "claims": [],
+    "quotes": [],
+    "temporal_details": {},
+    "tone": null,
+    "confidence": 0.0
+  },
+  {
+    "event": "second_inaugural",
+    "event_name": "Second Inaugural Address",
+    "source_id": "loc_mal_4361300",
+    "source_title": "Abraham Lincoln papers: Series 3. General Correspondence. 1837-1897: Abraham Lincoln, March 4, 1865 (Second Inaugural Address; endorsed by Lincoln, April 10, 1865)",
+    "author": "Abraham Lincoln",
+    "source_type": "lincoln",
+    "claims": [
+      "The Second Inaugural Address was delivered by Abraham Lincoln on March 4, 1865.",
+      "The only known manuscript of Lincoln's Second Inaugural Address is a fair copy.",
+      "Lincoln revised the ending of the address by pasting a slip of paper over the last two lines and writing the revised version on it.",
+      "Lincoln retained a set of uncorrected galleys after proofreading the printed copies for the press."
+    ],
+    "quotes": [
+      "With malice toward none; with charity for all; with firmness in the right, as God gives us to see the right, let us strive on to finish the work we are in; to bind up the nation's wounds; to care for him who shall have borne the battle, and for his widow, and his orphan — to do all which may achieve and cherish a just, and a lasting peace, among ourselves, and with the world."
+    ],
+    "temporal_details": {
+      "date": "March 4, 1865"
+    },
+    "tone": "reverential",
+    "confidence": 1.0
+  },
+  {
+    "event": "ford_theatre",
+    "event_name": "Ford's Theatre Assassination",
+    "source_id": "loc_mal_4361300",
+    "source_title": "Abraham Lincoln papers: Series 3. General Correspondence. 1837-1897: Abraham Lincoln, March 4, 1865 (Second Inaugural Address; endorsed by Lincoln, April 10, 1865)",
+    "author": "Abraham Lincoln",
+    "source_type": "lincoln",
+    "claims": [],
+    "quotes": [],
+    "temporal_details": {},
+    "tone": null,
+    "confidence": 0.0
+  },
+  {
+    "event": "election_night_1860",
+    "event_name": "Election Night 1860",
+    "source_id": "loc_mal_4361800",
+    "source_title": "Last Public Address",
+    "author": "Abraham Lincoln",
+    "source_type": "lincoln",
+    "claims": [],
+    "quotes": [],
+    "temporal_details": {},
+    "tone": null,
+    "confidence": 0.0
+  },
+  {
+    "event": "fort_sumter",
+    "event_name": "Fort Sumter Decision",
+    "source_id": "loc_mal_4361800",
+    "source_title": "Last Public Address",
+    "author": "Abraham Lincoln",
+    "source_type": "lincoln",
+    "claims": [],
+    "quotes": [],
+    "temporal_details": {},
+    "tone": null,
+    "confidence": 0.0
+  },
+  {
+    "event": "gettysburg_address",
+    "event_name": "Gettysburg Address",
+    "source_id": "loc_mal_4361800",
+    "source_title": "Last Public Address",
+    "author": "Abraham Lincoln",
+    "source_type": "lincoln",
+    "claims": [],
+    "quotes": [],
+    "temporal_details": {},
+    "tone": null,
+    "confidence": 0.0
+  },
+  {
+    "event": "second_inaugural",
+    "event_name": "Second Inaugural Address",
+    "source_id": "loc_mal_4361800",
+    "source_title": "Last Public Address",
+    "author": "Abraham Lincoln",
+    "source_type": "lincoln",
+    "claims": [],
+    "quotes": [],
+    "temporal_details": {},
+    "tone": null,
+    "confidence": 0.0
+  },
+  {
+    "event": "ford_theatre",
+    "event_name": "Ford's Theatre Assassination",
+    "source_id": "loc_mal_4361800",
+    "source_title": "Last Public Address",
+    "author": "Abraham Lincoln",
+    "source_type": "lincoln",
+    "claims": [],
+    "quotes": [],
+    "temporal_details": {},
+    "tone": null,
+    "confidence": 0.0
+  }
+]

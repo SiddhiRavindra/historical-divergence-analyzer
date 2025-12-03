@@ -1,7 +1,6 @@
 import logging
 import json
 from pathlib import Path
-from datetime import datetime
 from typing import List, Dict, Optional
 
 from scrapers.base_scraper import BaseScraper, URLDiscovery
@@ -21,23 +20,19 @@ logger = logging.getLogger(__name__)
 
 
 class EnhancedPart1DataCollector:
-    """Part 1: Data Acquisition with integrated special case handling"""
     
     def __init__(self):
-        # Core scrapers
         self.base_scraper = BaseScraper(rate_limit_seconds=2.5)
-        self.discovery = URLDiscovery(self.base_scraper)  # Handles both XML & special cases
+        self.discovery = URLDiscovery(self.base_scraper)
         self.loc_scraper = LocScraper(self.base_scraper, self.discovery)
         self.gutenberg_scraper = GutenbergScraper(self.base_scraper, self.discovery)
         
-        # Parsers
         self.text_parser = TextParser()
         self.xml_parser = XMLParser()
         self.data_normalizer = DataNormalizer()
         
-        logger.info("Initialized data collector with integrated special case handling")
+        logger.info("Initialized data collector")
         
-        # LoC sources - 5 Lincoln documents
         self.loc_sources = {
             "Election Night 1860": {
                 "url": "https://www.loc.gov/item/mal0440500/",
@@ -61,7 +56,6 @@ class EnhancedPart1DataCollector:
             }
         }
         
-        # Gutenberg sources
         self.gutenberg_sources = [
             "https://www.gutenberg.org/ebooks/6812",
             "https://www.gutenberg.org/ebooks/6811",
@@ -74,22 +68,14 @@ class EnhancedPart1DataCollector:
         self.output_dir.mkdir(parents=True, exist_ok=True)
     
     def scrape_and_parse_loc_document(self, loc_url: str, document_info: Dict) -> Optional[DocumentData]:
-        """
-        Scrape LoC document - automatically handles special cases
-        Uses URLDiscovery.is_special_case() to determine extraction method
-        """
         logger.info(f"Processing LoC document: {document_info['name']}")
         
         try:
-            # =====================================================
-            # Check if special case (Gettysburg, Last Public Address)
-            # =====================================================
             special_case_key = self.discovery.is_special_case(loc_url)
             
             if special_case_key:
                 logger.info(f"Special case detected: {special_case_key}")
                 
-                # Use URLDiscovery's special case handler
                 doc = self.discovery.scrape_special_document(
                     loc_url, 
                     {'name': document_info['name'], 'type': document_info['type']}
@@ -97,15 +83,12 @@ class EnhancedPart1DataCollector:
                 
                 if doc:
                     normalized_doc = self.data_normalizer.normalize_document(doc)
-                    logger.info(f" Special case SUCCESS: {normalized_doc.title} ({len(normalized_doc.content)} chars)")
+                    logger.info(f"Special case SUCCESS: {normalized_doc.title} ({len(normalized_doc.content)} chars)")
                     return normalized_doc
                 else:
-                    logger.error(f" Special case FAILED: {document_info['name']}")
+                    logger.error(f"Special case FAILED: {document_info['name']}")
                     return None
             
-            # =====================================================
-            # Standard XML extraction
-            # =====================================================
             logger.info(f"Using standard XML extraction")
             
             xml_url = self.discovery.find_loc_xml_url(loc_url)
@@ -128,19 +111,19 @@ class EnhancedPart1DataCollector:
             
             doc_data = DocumentData(
                 id=self._generate_loc_id(loc_url),
-                title=parsed_metadata.get('title', document_info['name']),
-                reference=xml_url,
-                document_type=document_info.get('type', 'Document'),
-                date=parsed_metadata.get('date'),
-                place=parsed_metadata.get('place'),
-                from_person=parsed_metadata.get('from_person', 'Abraham Lincoln'),
-                to_person=parsed_metadata.get('to_person'),
-                content=parse_result.get("content", ""),
+                title=parsed_metadata.get('title') if parsed_metadata.get('title') else document_info['name'],
+                reference=xml_url if xml_url else loc_url,
+                document_type=document_info.get('type') if document_info.get('type') else 'Document',
+                date=parsed_metadata.get('date') if parsed_metadata.get('date') else None,
+                place=parsed_metadata.get('place') if parsed_metadata.get('place') else None,
+                from_person=parsed_metadata.get('from_person') if parsed_metadata.get('from_person') else 'Abraham Lincoln',
+                to_person=parsed_metadata.get('to_person') if parsed_metadata.get('to_person') else None,
+                content=parse_result.get("content") if parse_result.get("content") else "",
                 source='loc'
             )
             
             normalized_doc = self.data_normalizer.normalize_document(doc_data)
-            logger.info(f" XML SUCCESS: {normalized_doc.title} ({len(normalized_doc.content)} chars)")
+            logger.info(f"XML SUCCESS: {normalized_doc.title} ({len(normalized_doc.content)} chars)")
             return normalized_doc
             
         except Exception as e:
@@ -150,58 +133,28 @@ class EnhancedPart1DataCollector:
             return None
     
     def scrape_and_parse_gutenberg_book(self, gutenberg_url: str) -> Optional[DocumentData]:
-       
         logger.info(f"Processing Gutenberg: {gutenberg_url}")
         
         try:
-            page_result = self.base_scraper.fetch_url(gutenberg_url)
-            if not page_result.success:
+            doc = self.gutenberg_scraper.scrape_gutenberg_book(gutenberg_url)
+            
+            if doc:
+                normalized_doc = self.data_normalizer.normalize_document(doc)
+                logger.info(f"Gutenberg SUCCESS: {normalized_doc.title} by {normalized_doc.from_person} ({len(normalized_doc.content)} chars)")
+                return normalized_doc
+            else:
+                logger.error(f"Gutenberg scraping returned None for {gutenberg_url}")
                 return None
-            
-            basic_metadata = self.gutenberg_scraper._extract_book_metadata(gutenberg_url)
-            if not basic_metadata:
-                basic_metadata = {}
-            
-            text_url = self.discovery.find_gutenberg_text_url(gutenberg_url)
-            if not text_url:
-                return None
-            
-            text_result = self.base_scraper.fetch_url(text_url)
-            if not text_result.success:
-                return None
-            
-            parse_result = self.text_parser.parse_text_content(text_result.content, text_url)
-            if parse_result.get("error"):
-                return None
-            
-            parsed_metadata = parse_result.get("metadata", {})
-            enhanced_metadata = {**basic_metadata, **parsed_metadata}
-            
-            doc_data = DocumentData(
-                id=self._generate_gutenberg_id(gutenberg_url),
-                title=enhanced_metadata.get('title', 'Unknown Title'),
-                reference=text_url,
-                document_type='Book',
-                date=enhanced_metadata.get('date'),
-                place=enhanced_metadata.get('place'),
-                from_person=enhanced_metadata.get('author'),
-                to_person=None,
-                content=parse_result.get("content", ""),
-                source='gutenberg'
-            )
-            
-            normalized_doc = self.data_normalizer.normalize_document(doc_data)
-            logger.info(f" Gutenberg SUCCESS: {normalized_doc.title} ({len(normalized_doc.content)} chars)")
-            return normalized_doc
             
         except Exception as e:
-            logger.error(f"Error: {str(e)}")
+            logger.error(f"Error processing Gutenberg {gutenberg_url}: {str(e)}")
+            import traceback
+            traceback.print_exc()
             return None
     
     def collect_firstperson_documents(self) -> List[DocumentData]:
-       
         logger.info("=" * 60)
-        logger.info("COLLECTING FIRST-PERSON DOCUMENTS")
+        logger.info("COLLECTING FIRST-PERSON DOCUMENTS (Library of Congress)")
         logger.info("=" * 60)
         
         documents = []
@@ -217,16 +170,15 @@ class EnhancedPart1DataCollector:
             if doc:
                 documents.append(doc)
             else:
-                logger.error(f" FAILED: {name}")
+                logger.error(f"FAILED: {name}")
         
         logger.info(f"First-person: {len(documents)}/{len(self.loc_sources)} collected")
         return documents
     
     def collect_otherauthor_documents(self) -> List[DocumentData]:
-        """Collect Gutenberg books"""
-      
-        logger.info("COLLECTING OTHER-AUTHOR DOCUMENTS")
-        
+        logger.info("=" * 60)
+        logger.info("COLLECTING OTHER-AUTHOR DOCUMENTS (Project Gutenberg)")
+        logger.info("=" * 60)
         
         documents = []
         
@@ -238,13 +190,12 @@ class EnhancedPart1DataCollector:
             if doc:
                 documents.append(doc)
             else:
-                logger.error(f" FAILED: Book {i}")
+                logger.error(f"FAILED: Book {i}")
         
         logger.info(f"Other-author: {len(documents)}/{len(self.gutenberg_sources)} collected")
         return documents
     
     def export_to_json(self, documents: List[DocumentData], filename: str) -> bool:
-        """JSON output"""
         try:
             json_data = self.data_normalizer.documents_to_json_list(documents)
             output_path = self.output_dir / filename
@@ -257,8 +208,9 @@ class EnhancedPart1DataCollector:
             return False
     
     def run_enhanced_data_acquisition(self) -> bool:
-        
+        logger.info("=" * 60)
         logger.info("PART 1: DATA ACQUISITION")
+        logger.info("=" * 60)
         
         try:
             firstperson_docs = self.collect_firstperson_documents()
@@ -271,33 +223,45 @@ class EnhancedPart1DataCollector:
             self.export_to_json(firstperson_docs, "dataset_firstperson.json")
             self.export_to_json(otherauthor_docs, "dataset_otherauthors.json")
             
-            # Summary
             total = len(firstperson_docs) + len(otherauthor_docs)
             target = len(self.loc_sources) + len(self.gutenberg_sources)
             
-            
+            print("\n" + "=" * 50)
             print("COLLECTION SUMMARY")
-           
-            print(f"First-person:  {len(firstperson_docs)}/{len(self.loc_sources)}")
-            print(f"Other-author:  {len(otherauthor_docs)}/{len(self.gutenberg_sources)}")
-            print(f"Total:         {total}/{target} ({total/target*100:.0f}%)")
+            print("=" * 50)
+            print(f"First-person (LoC):    {len(firstperson_docs)}/{len(self.loc_sources)}")
+            print(f"Other-author (Gut):    {len(otherauthor_docs)}/{len(self.gutenberg_sources)}")
+            print(f"Total:                 {total}/{target} ({total/target*100:.0f}%)")
+            print("=" * 50)
             
+            if otherauthor_docs:
+                print("\nGutenberg Authors Extracted:")
+                for doc in otherauthor_docs:
+                    author = doc.from_person if doc.from_person else "Unknown"
+                    place = doc.place if doc.place else "N/A"
+                    print(f"  - {doc.id}: {author} (Place: {place})")
             
-            return total >= 8  # At least 80%
+            return total >= 8
             
         except Exception as e:
             logger.error(f"Error: {str(e)}")
+            import traceback
+            traceback.print_exc()
             return False
     
     def _generate_loc_id(self, url: str) -> str:
         import re
         match = re.search(r'/(mal\d+|mal\.\d+|[^/]+)/?$', url)
-        return f"loc_{match.group(1).replace('.', '_')}" if match else f"loc_{abs(hash(url)) % 10000:04d}"
+        if match:
+            return f"loc_{match.group(1).replace('.', '_')}"
+        return f"loc_{abs(hash(url)) % 10000:04d}"
     
     def _generate_gutenberg_id(self, url: str) -> str:
         import re
         match = re.search(r'/ebooks/(\d+)', url)
-        return f"gutenberg_{match.group(1)}" if match else f"gutenberg_{abs(hash(url)) % 10000:04d}"
+        if match:
+            return f"gutenberg_{match.group(1)}"
+        return f"gutenberg_{abs(hash(url)) % 10000:04d}"
 
 
 def main():
@@ -305,10 +269,10 @@ def main():
     success = collector.run_enhanced_data_acquisition()
     
     if success:
-        print("\n Part 1 completed successfully!")
+        print("\nPart 1 completed successfully!")
         return 0
     else:
-        print("\n Part 1 completed with errors")
+        print("\nPart 1 completed with errors")
         return 1
 
 

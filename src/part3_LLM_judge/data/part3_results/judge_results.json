@@ -1,0 +1,685 @@
+[
+  {
+    "pair_id": "election_night_1860_gutenberg_6812",
+    "event": "election_night_1860",
+    "lincoln_source": "loc_mal0440500",
+    "other_source": "gutenberg_6812",
+    "other_author": "Hay, John",
+    "consistency_score": 70,
+    "contradictions": [
+      {
+        "lincoln_claim": "A circular was distributed before the election by respectable citizens of New York, portraying Lincoln as a dangerous radical.",
+        "other_claim": "The election resulted disastrously for Douglas.",
+        "type": "omission",
+        "explanation": "Lincoln's account does not mention the outcome of the election for Douglas, which is a significant aspect of the event.",
+        "severity": 0.3
+      },
+      {
+        "lincoln_claim": "Lincoln was advised to speak out after the election to calm public anxiety and disarm mischief makers.",
+        "other_claim": "Lincoln was chosen one of the members from Sangamon County by some 650 majority.",
+        "type": "omission",
+        "explanation": "John Hay's account does not mention Lincoln being advised to speak out after the election, which is a key element of Lincoln's narrative.",
+        "severity": 0.4
+      },
+      {
+        "lincoln_claim": "A circular was distributed before the election by respectable citizens of New York, portraying Lincoln as a dangerous radical.",
+        "other_claim": "The election occurred on November 7, 1860.",
+        "type": "factual",
+        "explanation": "There is a discrepancy in the date of the election. Lincoln's account does not specify a date, while Hay's account provides a date that is historically incorrect.",
+        "severity": 0.2
+      }
+    ],
+    "omissions_lincoln": [
+      "The election resulted disastrously for Douglas.",
+      "Lincoln was chosen one of the members from Sangamon County by some 650 majority."
+    ],
+    "omissions_other": [
+      "A circular was distributed before the election by respectable citizens of New York, portraying Lincoln as a dangerous radical.",
+      "Lincoln was advised to speak out after the election to calm public anxiety and disarm mischief makers."
+    ],
+    "reasoning": "Both accounts discuss the election night of 1860, but they focus on different aspects. Lincoln's account highlights the pre-election portrayal of him and post-election advice, while Hay's account focuses on the election results and Lincoln's local political success. There is a factual discrepancy regarding the election date, and each account omits significant details mentioned by the other. The consistency score reflects these differences and omissions.",
+    "prompt_strategy": "chain_of_thought"
+  },
+  {
+    "pair_id": "election_night_1860_gutenberg_6811",
+    "event": "election_night_1860",
+    "lincoln_source": "loc_mal0440500",
+    "other_source": "gutenberg_6811",
+    "other_author": "Ketcham, Henry",
+    "consistency_score": 60,
+    "contradictions": [
+      {
+        "lincoln_claim": "A circular was distributed before the election by respectable citizens of New York, portraying Lincoln as a dangerous radical.",
+        "other_claim": "No mention of a circular or portrayal of Lincoln as a dangerous radical.",
+        "type": "omission",
+        "explanation": "Ketcham's account does not mention the circular or the portrayal of Lincoln as a radical, which is a significant aspect of Lincoln's account.",
+        "severity": 0.5
+      },
+      {
+        "lincoln_claim": "Lincoln was advised to speak out after the election to calm public anxiety and disarm mischief makers.",
+        "other_claim": "No mention of advice to speak out after the election.",
+        "type": "omission",
+        "explanation": "Ketcham's account omits any reference to Lincoln being advised to speak out after the election.",
+        "severity": 0.3
+      }
+    ],
+    "omissions_lincoln": [
+      "The second republican national convention met in Chicago on May 16, 1860.",
+      "Lincoln received 231.5 votes on the third ballot, which was not announced.",
+      "Lincoln was nominated for president on May 16, 1860.",
+      "Election Night occurred on November 6, 1860.",
+      "Lincoln was introduced to the audience by E. D. Baker.",
+      "Lincoln's inaugural address was submitted for criticism to a few trusted friends, including Seward.",
+      "Lincoln was sworn into office by Chief Justice Taney."
+    ],
+    "omissions_other": [
+      "A circular was distributed before the election by respectable citizens of New York, portraying Lincoln as a dangerous radical.",
+      "Lincoln was advised to speak out after the election to calm public anxiety and disarm mischief makers."
+    ],
+    "reasoning": "Lincoln's account focuses on the portrayal of him as a radical and the advice he received post-election, which are not mentioned in Ketcham's account. Ketcham provides a detailed timeline of events leading up to and following the election, which Lincoln does not address. The factual alignment is limited as Lincoln's account is more interpretive and focused on specific incidents, while Ketcham's is more comprehensive and factual. The consistency score reflects the limited overlap and the omissions present in both accounts.",
+    "prompt_strategy": "chain_of_thought"
+  },
+  {
+    "pair_id": "election_night_1860_gutenberg_12801",
+    "event": "election_night_1860",
+    "lincoln_source": "loc_mal0440500",
+    "other_source": "gutenberg_12801",
+    "other_author": "Morse, John T., Jr. (John Torrey)",
+    "consistency_score": 60,
+    "contradictions": [
+      {
+        "lincoln_claim": "A circular was distributed before the election by respectable citizens of New York, portraying Lincoln as a dangerous radical.",
+        "other_claim": "Mr. Lincoln faced significant opposition and challenges during the presidential campaign leading up to Election Night.",
+        "type": "interpretive",
+        "explanation": "Lincoln's account focuses on a specific incident involving a circular, while Morse's account generalizes the opposition Lincoln faced. The interpretation of the opposition's nature and its impact differs.",
+        "severity": 0.3
+      },
+      {
+        "lincoln_claim": "Lincoln was advised to speak out after the election to calm public anxiety and disarm mischief makers.",
+        "other_claim": "The President offered amnesty and a plan for state reconstruction to certain repentant rebels.",
+        "type": "omission",
+        "explanation": "Lincoln's account does not mention any post-election plans or actions related to amnesty or state reconstruction, which are significant elements in Morse's account.",
+        "severity": 0.5
+      }
+    ],
+    "omissions_lincoln": [
+      "The President offered amnesty and a plan for state reconstruction to certain repentant rebels."
+    ],
+    "omissions_other": [
+      "A circular was distributed before the election by respectable citizens of New York, portraying Lincoln as a dangerous radical.",
+      "Lincoln was advised to speak out after the election to calm public anxiety and disarm mischief makers."
+    ],
+    "reasoning": "Both accounts agree on the date of the election, November 6, 1860, and acknowledge the opposition Lincoln faced. However, Lincoln's account provides specific details about a circular and advice he received, which are not mentioned by Morse. Conversely, Morse includes information about post-election plans for amnesty and reconstruction, which Lincoln does not address. The consistency score reflects these differences in focus and detail.",
+    "prompt_strategy": "chain_of_thought"
+  },
+  {
+    "pair_id": "election_night_1860_gutenberg_14004",
+    "event": "election_night_1860",
+    "lincoln_source": "loc_mal0440500",
+    "other_source": "gutenberg_14004",
+    "other_author": "Browne, Francis F. (Francis Fisher)",
+    "consistency_score": 70,
+    "contradictions": [
+      {
+        "lincoln_claim": "A circular was distributed before the election by respectable citizens of New York, portraying Lincoln as a dangerous radical.",
+        "other_claim": "Lincoln was nominated for President by the convention.",
+        "type": "omission",
+        "explanation": "Lincoln's account focuses on the negative portrayal and public anxiety, while Browne's account highlights the nomination and celebration, omitting the negative portrayal.",
+        "severity": 0.3
+      },
+      {
+        "lincoln_claim": "Lincoln was advised to speak out after the election to calm public anxiety and disarm mischief makers.",
+        "other_claim": "Lincoln invited the crowd into his house after giving a brief speech.",
+        "type": "interpretive",
+        "explanation": "Lincoln's account suggests a strategic response to public anxiety, while Browne's account presents a more celebratory and personal interaction with the public.",
+        "severity": 0.4
+      }
+    ],
+    "omissions_lincoln": [
+      "Election Night occurred on November 6, 1860.",
+      "A salute of a hundred guns was fired in Springfield upon the news of Lincoln's nomination.",
+      "An enthusiastic meeting was held by the Republicans in the State House in the evening.",
+      "Lincoln invited the crowd into his house after giving a brief speech.",
+      "Lincoln expressed his opposition to the extension of slavery."
+    ],
+    "omissions_other": [
+      "A circular was distributed before the election by respectable citizens of New York, portraying Lincoln as a dangerous radical.",
+      "Lincoln was advised to speak out after the election to calm public anxiety and disarm mischief makers."
+    ],
+    "reasoning": "Both accounts agree on the occurrence of the election night on November 6, 1860, but they diverge in focus. Lincoln's account emphasizes the negative portrayal and strategic response to public anxiety, while Browne's account highlights the celebratory aspects and Lincoln's personal interactions. The factual alignment is strong regarding the date, but the interpretive alignment is weaker due to differing emphases on public perception and personal actions. The omissions by Lincoln include celebratory details and specific events, while Browne omits the negative portrayal and strategic advice Lincoln received.",
+    "prompt_strategy": "chain_of_thought"
+  },
+  {
+    "pair_id": "election_night_1860_gutenberg_18379",
+    "event": "election_night_1860",
+    "lincoln_source": "loc_mal0440500",
+    "other_source": "gutenberg_18379",
+    "other_author": "Charnwood, Godfrey Rathbone Benson, Baron",
+    "consistency_score": 70,
+    "contradictions": [
+      {
+        "lincoln_claim": "A circular was distributed before the election by respectable citizens of New York, portraying Lincoln as a dangerous radical.",
+        "other_claim": "Lincoln's election was unlooked-for and raised him to the highest place of ambition.",
+        "type": "interpretive",
+        "explanation": "Lincoln's account focuses on the negative portrayal and public anxiety, while Charnwood emphasizes the unexpected nature and ambition associated with his election.",
+        "severity": 0.4
+      },
+      {
+        "lincoln_claim": "Lincoln was advised to speak out after the election to calm public anxiety and disarm mischief makers.",
+        "other_claim": "Lincoln believed it was important for him to be elected as that the army should be successful in the field.",
+        "type": "interpretive",
+        "explanation": "Lincoln's account highlights the need to address public anxiety, while Charnwood focuses on the strategic importance of his election for military success.",
+        "severity": 0.3
+      }
+    ],
+    "omissions_lincoln": [
+      "The Democratic party split into Northern and Southern factions during the election.",
+      "The Republican party was founded on the principle that slavery is wrong.",
+      "The Presidential election took place on November 6, 1860.",
+      "On November 10, 1860, the Legislature of South Carolina convened a specially elected Convention to decide upon the question of secession.",
+      "The Convention passed its formal 'Ordinance of Secession' on December 20, 1860."
+    ],
+    "omissions_other": [
+      "A circular was distributed before the election by respectable citizens of New York, portraying Lincoln as a dangerous radical.",
+      "Lincoln was advised to speak out after the election to calm public anxiety and disarm mischief makers."
+    ],
+    "reasoning": "Both accounts discuss the election of 1860, but they focus on different aspects. Lincoln's account is more personal, emphasizing the negative portrayal and the need to address public anxiety. Charnwood provides a broader historical context, including the political landscape and the implications of Lincoln's election. The factual details, such as dates and events, align well, but the interpretive focus differs, leading to a moderate consistency score.",
+    "prompt_strategy": "chain_of_thought"
+  },
+  {
+    "pair_id": "fort_sumter_gutenberg_6811",
+    "event": "fort_sumter",
+    "lincoln_source": "loc_mal_0882800",
+    "other_source": "gutenberg_6811",
+    "other_author": "Ketcham, Henry",
+    "consistency_score": 85,
+    "contradictions": [
+      {
+        "lincoln_claim": "Fort Sumter had neither been surrendered, evacuated nor attacked as of April 8, 1861.",
+        "other_claim": "The Fort Sumter Decision took place from April 12-14, 1861.",
+        "type": "factual",
+        "explanation": "Lincoln's account is consistent with the timeline up to April 8, 1861, while Ketcham's account refers to events starting on April 12, 1861. There is no direct contradiction, but the accounts cover different time frames.",
+        "severity": 0.2
+      },
+      {
+        "lincoln_claim": "Robert S. Chew was instructed by the President to notify Governor Pickens of an attempt to supply Fort Sumter with provisions only.",
+        "other_claim": "Lincoln stated he would use the power confided to him to hold, occupy, and possess the property and places belonging to the government.",
+        "type": "interpretive",
+        "explanation": "Lincoln's account focuses on a specific action regarding provisions, while Ketcham's account interprets Lincoln's broader strategic intentions.",
+        "severity": 0.3
+      }
+    ],
+    "omissions_lincoln": [
+      "Lincoln issued a call for 75,000 volunteers to serve for three months the morning after the evacuation of Fort Sumter.",
+      "Virginia passed the ordinance of secession on April 17, 1861, after the fall of Fort Sumter."
+    ],
+    "omissions_other": [
+      "Robert S. Chew was instructed by the President to notify Governor Pickens of an attempt to supply Fort Sumter with provisions only."
+    ],
+    "reasoning": "Lincoln's account provides a specific snapshot of the situation as of April 8, 1861, focusing on the attempt to supply Fort Sumter with provisions. Ketcham's account covers a broader timeline, including the events of April 12-14, 1861, and subsequent actions by Lincoln and the political consequences. The factual alignment is generally consistent, with minor discrepancies in the timeline. Interpretive differences arise from Lincoln's focus on immediate actions versus Ketcham's broader strategic context. Omissions in each account highlight different focuses: Lincoln on immediate actions and Ketcham on broader political and military responses.",
+    "prompt_strategy": "chain_of_thought"
+  },
+  {
+    "pair_id": "fort_sumter_gutenberg_12801",
+    "event": "fort_sumter",
+    "lincoln_source": "loc_mal_0882800",
+    "other_source": "gutenberg_12801",
+    "other_author": "Morse, John T., Jr. (John Torrey)",
+    "consistency_score": 70,
+    "contradictions": [
+      {
+        "lincoln_claim": "Fort Sumter had neither been surrendered, evacuated nor attacked as of April 8, 1861.",
+        "other_claim": "The Fort Sumter Decision occurred from April 12-14, 1861.",
+        "type": "factual",
+        "explanation": "Lincoln's account stops at April 8, 1861, while Morse's account includes events from April 12-14, 1861, indicating the attack on Fort Sumter.",
+        "severity": 0.5
+      },
+      {
+        "lincoln_claim": "Robert S. Chew was instructed by the President to notify Governor Pickens of an attempt to supply Fort Sumter with provisions only.",
+        "other_claim": "Lincoln asked for advice regarding relieving Fort Sumter.",
+        "type": "omission",
+        "explanation": "Lincoln's account does not mention seeking advice, which is included in Morse's account.",
+        "severity": 0.3
+      }
+    ],
+    "omissions_lincoln": [
+      "Lincoln issued a proclamation calling for volunteers for three months.",
+      "The Fort Sumter Decision occurred from April 12-14, 1861.",
+      "Abraham Lincoln issued the Proclamation of Emancipation on January 1, 1863.",
+      "Lincoln believed that the Emancipation Proclamation was a legitimate exercise of war power."
+    ],
+    "omissions_other": [
+      "Robert S. Chew was instructed by the President to notify Governor Pickens of an attempt to supply Fort Sumter with provisions only."
+    ],
+    "reasoning": "Lincoln's account focuses on the status of Fort Sumter as of April 8, 1861, and his specific instructions to Robert S. Chew. Morse's account provides a broader context, including Lincoln's actions and decisions leading up to and following the attack on Fort Sumter. The factual alignment is mostly consistent, but Lincoln's account is limited in scope, omitting subsequent events and broader strategic decisions. Morse's account includes additional context and later events, such as the call for volunteers and the Emancipation Proclamation, which are not covered by Lincoln's account.",
+    "prompt_strategy": "chain_of_thought"
+  },
+  {
+    "pair_id": "fort_sumter_gutenberg_14004",
+    "event": "fort_sumter",
+    "lincoln_source": "loc_mal_0882800",
+    "other_source": "gutenberg_14004",
+    "other_author": "Browne, Francis F. (Francis Fisher)",
+    "consistency_score": 85,
+    "contradictions": [
+      {
+        "lincoln_claim": "Fort Sumter had neither been surrendered, evacuated nor attacked as of April 8, 1861.",
+        "other_claim": "The Confederate attack upon Fort Sumter on April 12, 1861, was the signal that civil war had actually begun.",
+        "type": "factual",
+        "explanation": "Lincoln's account is accurate up to April 8, 1861, while Browne's account includes events that occurred after that date, specifically the attack on April 12, 1861.",
+        "severity": 0.2
+      }
+    ],
+    "omissions_lincoln": [
+      "Lincoln's account does not mention the Confederate attack on Fort Sumter on April 12, 1861.",
+      "Lincoln's account does not mention the issuance of a proclamation on April 15, 1861, asking for 75,000 volunteers.",
+      "Lincoln's account does not mention the summoning of Congress to convene on July 4, 1861."
+    ],
+    "omissions_other": [
+      "Browne's account does not mention Robert S. Chew's instructions to notify Governor Pickens about the supply attempt."
+    ],
+    "reasoning": "Both accounts agree on the status of Fort Sumter up to April 8, 1861, and the subsequent attack on April 12, 1861. Lincoln's account is limited to the situation as of April 8, while Browne's account covers events that occurred after that date, including the attack and Lincoln's subsequent actions. The factual alignment is strong, but Lincoln's account omits later developments, which are covered by Browne. The interpretive alignment is consistent, as both accounts suggest Lincoln's strategic patience and the inevitability of conflict. The consistency score reflects the alignment of facts and interpretations, with minor factual discrepancies due to the different time frames covered.",
+    "prompt_strategy": "chain_of_thought"
+  },
+  {
+    "pair_id": "fort_sumter_gutenberg_18379",
+    "event": "fort_sumter",
+    "lincoln_source": "loc_mal_0882800",
+    "other_source": "gutenberg_18379",
+    "other_author": "Charnwood, Godfrey Rathbone Benson, Baron",
+    "consistency_score": 75,
+    "contradictions": [
+      {
+        "lincoln_claim": "Fort Sumter had neither been surrendered, evacuated nor attacked as of April 8, 1861.",
+        "other_claim": "The Fort Sumter Decision took place from April 12-14, 1861.",
+        "type": "factual",
+        "explanation": "Lincoln's account is consistent with the timeline provided by Charnwood, as the attack on Fort Sumter began on April 12, 1861, which is after Lincoln's statement on April 8, 1861.",
+        "severity": 0.1
+      },
+      {
+        "lincoln_claim": "Robert S. Chew was instructed by the President to notify Governor Pickens of an attempt to supply Fort Sumter with provisions only.",
+        "other_claim": "Davis orders attack on Fort Sumter",
+        "type": "interpretive",
+        "explanation": "Lincoln's account focuses on a peaceful attempt to supply provisions, while Charnwood's account highlights the Confederate decision to attack, indicating differing perspectives on the motivations and actions leading up to the conflict.",
+        "severity": 0.3
+      }
+    ],
+    "omissions_lincoln": [
+      "The secession of South Carolina was not a movement which could at once be quelled by prompt measures of repression.",
+      "Major Anderson withdrew his whole force to Fort Sumter, which he thought the most defensible.",
+      "Buchanan decided to reinforce Anderson on Fort Sumter.",
+      "The first Confederate general, Beauregard, was sent to Charleston to hover over Fort Sumter.",
+      "The Union flag was hoisted again on Fort Sumter on April 14, 1865."
+    ],
+    "omissions_other": [
+      "Robert S. Chew was instructed by the President to notify Governor Pickens of an attempt to supply Fort Sumter with provisions only."
+    ],
+    "reasoning": "Both accounts agree on the timeline of events leading up to the attack on Fort Sumter, with Lincoln's account providing specific details about the attempt to supply the fort with provisions. Charnwood's account provides a broader context, including the strategic decisions and actions of both Union and Confederate forces. The main factual alignment is consistent, but there are interpretive differences regarding the motivations and actions of the involved parties. Lincoln's account omits broader strategic and historical context, while Charnwood's account omits specific details about Lincoln's actions.",
+    "prompt_strategy": "chain_of_thought"
+  },
+  {
+    "pair_id": "gettysburg_address_gutenberg_6812",
+    "event": "gettysburg_address",
+    "lincoln_source": "loc_gettysburg_address",
+    "other_source": "gutenberg_6812",
+    "other_author": "Hay, John",
+    "consistency_score": 85,
+    "contradictions": [
+      {
+        "lincoln_claim": "The address was delivered at a battlefield dedicated as a final resting place for those who died in the Civil War.",
+        "other_claim": "The Gettysburg Address was delivered on November 19, 1863.",
+        "type": "omission",
+        "explanation": "John Hay's account provides the specific date of the address, which is not mentioned in Lincoln's account.",
+        "severity": 0.2
+      }
+    ],
+    "omissions_lincoln": [
+      "Specific date of the Gettysburg Address."
+    ],
+    "omissions_other": [
+      "The nation was conceived in liberty and dedicated to the proposition that all men are created equal.",
+      "The living are dedicated to the task of ensuring that the dead shall not have died in vain."
+    ],
+    "reasoning": "Both accounts agree on the event being the Gettysburg Address and its significance as a dedication of a battlefield. However, Lincoln's account focuses on the philosophical and motivational aspects of the address, emphasizing liberty, equality, and dedication to the cause. John Hay's account provides a factual detail, the date, which is missing from Lincoln's account. The consistency score reflects the alignment in the event's purpose and significance, with minor omissions affecting the score.",
+    "prompt_strategy": "chain_of_thought"
+  },
+  {
+    "pair_id": "gettysburg_address_gutenberg_6811",
+    "event": "gettysburg_address",
+    "lincoln_source": "loc_gettysburg_address",
+    "other_source": "gutenberg_6811",
+    "other_author": "Ketcham, Henry",
+    "consistency_score": 85,
+    "contradictions": [
+      {
+        "lincoln_claim": "The address was delivered at a battlefield dedicated as a final resting place for those who died in the Civil War.",
+        "other_claim": "Initially, the speech was not appreciated by the audience or the press.",
+        "type": "interpretive",
+        "explanation": "Lincoln's account focuses on the purpose and dedication of the battlefield, while Ketcham's account highlights the initial reception of the speech, which is more interpretive in nature.",
+        "severity": 0.3
+      }
+    ],
+    "omissions_lincoln": [
+      "The Gettysburg Address was delivered on November 19, 1863.",
+      "Lincoln wrote the address on a sheet of foolscap paper in odd moments.",
+      "The speech is less than three hundred words long.",
+      "Initially, the speech was not appreciated by the audience or the press."
+    ],
+    "omissions_other": [
+      "The nation was conceived in liberty and dedicated to the proposition that all men are created equal.",
+      "The living are dedicated to the task of ensuring that the dead shall not have died in vain."
+    ],
+    "reasoning": "Both accounts agree on the significance of the Gettysburg Address and its context as a dedication of a battlefield. However, Lincoln's account focuses on the philosophical and motivational aspects, while Ketcham provides more factual details about the speech's creation and initial reception. The main contradiction lies in the interpretive aspect of the speech's reception, which does not directly conflict with Lincoln's account but provides a different perspective. The consistency score reflects the overall alignment with minor interpretive differences.",
+    "prompt_strategy": "chain_of_thought"
+  },
+  {
+    "pair_id": "gettysburg_address_gutenberg_12801",
+    "event": "gettysburg_address",
+    "lincoln_source": "loc_gettysburg_address",
+    "other_source": "gutenberg_12801",
+    "other_author": "Morse, John T., Jr. (John Torrey)",
+    "consistency_score": 70,
+    "contradictions": [
+      {
+        "lincoln_claim": "The address was delivered at a battlefield dedicated as a final resting place for those who died in the Civil War.",
+        "other_claim": "The Gettysburg Address was delivered on November 19, 1863.",
+        "type": "factual",
+        "explanation": "Lincoln's account does not specify the date of the Gettysburg Address, while Morse provides the exact date.",
+        "severity": 0.2
+      },
+      {
+        "lincoln_claim": "The nation was conceived in liberty and dedicated to the proposition that all men are created equal.",
+        "other_claim": "Abraham Lincoln wrote a rough draft of the Emancipation Proclamation on July 8, 1862.",
+        "type": "omission",
+        "explanation": "Morse's account includes information about the Emancipation Proclamation, which is not directly related to the Gettysburg Address.",
+        "severity": 0.3
+      }
+    ],
+    "omissions_lincoln": [
+      "The specific date of the Gettysburg Address (November 19, 1863)."
+    ],
+    "omissions_other": [
+      "The dedication of the battlefield as a final resting place for those who died in the Civil War.",
+      "The living are dedicated to the task of ensuring that the dead shall not have died in vain."
+    ],
+    "reasoning": "Lincoln's account focuses on the thematic elements of the Gettysburg Address, emphasizing liberty, equality, and dedication to the cause. Morse provides a factual account, including the date of the address and unrelated information about the Emancipation Proclamation. The accounts align on the event's significance but differ in focus and detail, leading to a moderate consistency score.",
+    "prompt_strategy": "chain_of_thought"
+  },
+  {
+    "pair_id": "gettysburg_address_gutenberg_14004",
+    "event": "gettysburg_address",
+    "lincoln_source": "loc_gettysburg_address",
+    "other_source": "gutenberg_14004",
+    "other_author": "Browne, Francis F. (Francis Fisher)",
+    "consistency_score": 75,
+    "contradictions": [
+      {
+        "lincoln_claim": "The address was delivered at a battlefield dedicated as a final resting place for those who died in the Civil War.",
+        "other_claim": "The Gettysburg Address was delivered on November 19, 1863.",
+        "type": "factual",
+        "explanation": "Lincoln's account does not specify the date of the address, while Browne provides the exact date.",
+        "severity": 0.2
+      },
+      {
+        "lincoln_claim": "The living are dedicated to the task of ensuring that the dead shall not have died in vain.",
+        "other_claim": "Lincoln's dissatisfaction with General Meade after the battle of Gettysburg was due to his elation over the victory and desire for further successes.",
+        "type": "interpretive",
+        "explanation": "Lincoln's account focuses on the dedication of the living to honor the dead, while Browne discusses Lincoln's emotions and motivations regarding military leadership post-battle.",
+        "severity": 0.5
+      }
+    ],
+    "omissions_lincoln": [
+      "Lincoln's dissatisfaction with General Meade after the battle of Gettysburg.",
+      "Lincoln later acknowledged Meade's contributions."
+    ],
+    "omissions_other": [
+      "The nation was conceived in liberty and dedicated to the proposition that all men are created equal.",
+      "The living are dedicated to the task of ensuring that the dead shall not have died in vain."
+    ],
+    "reasoning": "Both accounts discuss the Gettysburg Address, but they focus on different aspects. Lincoln's account emphasizes the principles of equality and dedication to the fallen, while Browne's account provides context about Lincoln's feelings towards General Meade and the date of the address. The factual alignment is mostly consistent, but there are interpretive differences regarding Lincoln's motivations and emotions. Each account omits significant details covered by the other, leading to a moderate consistency score.",
+    "prompt_strategy": "chain_of_thought"
+  },
+  {
+    "pair_id": "gettysburg_address_gutenberg_18379",
+    "event": "gettysburg_address",
+    "lincoln_source": "loc_gettysburg_address",
+    "other_source": "gutenberg_18379",
+    "other_author": "Charnwood, Godfrey Rathbone Benson, Baron",
+    "consistency_score": 85,
+    "contradictions": [
+      {
+        "lincoln_claim": "The nation was conceived in liberty and dedicated to the proposition that all men are created equal.",
+        "other_claim": "Lincoln's oratory is characterized by a singular perfection of form.",
+        "type": "interpretive",
+        "explanation": "Lincoln's account focuses on the philosophical and moral underpinnings of the nation, while Charnwood emphasizes the stylistic quality of Lincoln's speech.",
+        "severity": 0.2
+      }
+    ],
+    "omissions_lincoln": [
+      "The Gettysburg Address was delivered on November 19, 1863.",
+      "Edward Everett delivered a two-hour oration before Lincoln spoke."
+    ],
+    "omissions_other": [
+      "The living are dedicated to the task of ensuring that the dead shall not have died in vain."
+    ],
+    "reasoning": "Both accounts agree on the location and purpose of the Gettysburg Address, aligning factually on the event's context. However, Lincoln's account emphasizes the philosophical message and dedication to the fallen, while Charnwood provides additional context about the event's structure and the presence of Edward Everett. The interpretive difference lies in Charnwood's focus on the speech's form rather than its content. The consistency score reflects strong factual alignment but some interpretive differences and omissions.",
+    "prompt_strategy": "chain_of_thought"
+  },
+  {
+    "pair_id": "second_inaugural_gutenberg_6812",
+    "event": "second_inaugural",
+    "lincoln_source": "loc_mal_4361300",
+    "other_source": "gutenberg_6812",
+    "other_author": "Hay, John",
+    "consistency_score": 70,
+    "contradictions": [
+      {
+        "lincoln_claim": "The Second Inaugural Address was delivered by Abraham Lincoln on March 4, 1865.",
+        "other_claim": "The Second Inaugural Address took place on March 4, 1865.",
+        "type": "factual",
+        "explanation": "Both accounts agree on the date of the address.",
+        "severity": 0.0
+      },
+      {
+        "lincoln_claim": "Lincoln revised the ending of the address by pasting a slip of paper over the last two lines and writing the revised version on it.",
+        "other_claim": "Lincoln's speech was four hours in length and was received with abundant applause.",
+        "type": "omission",
+        "explanation": "John Hay's account does not mention the revision of the address.",
+        "severity": 0.5
+      },
+      {
+        "lincoln_claim": "Lincoln retained a set of uncorrected galleys after proofreading the printed copies for the press.",
+        "other_claim": "The new President of the United States delivered his inaugural address amidst a dignified and stately national ceremonial.",
+        "type": "omission",
+        "explanation": "John Hay's account does not mention Lincoln retaining uncorrected galleys.",
+        "severity": 0.3
+      },
+      {
+        "lincoln_claim": "The only known manuscript of Lincoln's Second Inaugural Address is a fair copy.",
+        "other_claim": "Lincoln's speech was four hours in length and was received with abundant applause.",
+        "type": "factual",
+        "explanation": "There is a factual discrepancy regarding the length of the speech; Lincoln's account does not mention the length, while Hay's account states it was four hours.",
+        "severity": 0.7
+      }
+    ],
+    "omissions_lincoln": [
+      "The new President of the United States delivered his inaugural address amidst a dignified and stately national ceremonial.",
+      "Lincoln's speech was four hours in length and was received with abundant applause."
+    ],
+    "omissions_other": [
+      "The only known manuscript of Lincoln's Second Inaugural Address is a fair copy.",
+      "Lincoln revised the ending of the address by pasting a slip of paper over the last two lines and writing the revised version on it.",
+      "Lincoln retained a set of uncorrected galleys after proofreading the printed copies for the press."
+    ],
+    "reasoning": "Both accounts agree on the date of the Second Inaugural Address, but there are discrepancies in the details provided. Lincoln's account focuses on the manuscript and revisions, while John Hay's account emphasizes the ceremonial aspects and the reception of the speech. The most significant factual discrepancy is the length of the speech, which is not mentioned by Lincoln but is stated as four hours by Hay. The consistency score reflects these differences and omissions.",
+    "prompt_strategy": "chain_of_thought"
+  },
+  {
+    "pair_id": "second_inaugural_gutenberg_6811",
+    "event": "second_inaugural",
+    "lincoln_source": "loc_mal_4361300",
+    "other_source": "gutenberg_6811",
+    "other_author": "Ketcham, Henry",
+    "consistency_score": 85,
+    "contradictions": [
+      {
+        "lincoln_claim": "Lincoln revised the ending of the address by pasting a slip of paper over the last two lines and writing the revised version on it.",
+        "other_claim": "The address contains a spirit that gives it marvelous grandeur.",
+        "type": "interpretive",
+        "explanation": "Lincoln's account focuses on the physical revision process, while Ketcham emphasizes the grandeur of the address, which is an interpretive difference rather than a factual contradiction.",
+        "severity": 0.2
+      }
+    ],
+    "omissions_lincoln": [
+      "Lincoln had no new policy to proclaim in the address, as he was to continue the policy of the past four years.",
+      "The end of the war was almost in sight at the time of the address.",
+      "Lincoln was in excellent spirits on Good Friday, April 14, 1865.",
+      "Lincoln expressed a desire for peace and stated that enough lives had been sacrificed.",
+      "Lincoln expressed a desire to take the oath of office before March 4, 1865, to address the growing difficulties.",
+      "Lincoln felt that every hour added to the difficulties he would face upon taking office."
+    ],
+    "omissions_other": [
+      "The only known manuscript of Lincoln's Second Inaugural Address is a fair copy.",
+      "Lincoln retained a set of uncorrected galleys after proofreading the printed copies for the press."
+    ],
+    "reasoning": "Both accounts agree on the date and the fact that Lincoln delivered the Second Inaugural Address. Lincoln's account provides specific details about the manuscript and revisions, while Ketcham's account offers broader context about Lincoln's policies and emotional state. The interpretive difference regarding the grandeur of the address is minor and does not significantly affect the overall consistency. The omissions by Lincoln focus on broader historical context and Lincoln's emotional state, while Ketcham omits specific details about the manuscript and revisions.",
+    "prompt_strategy": "chain_of_thought"
+  },
+  {
+    "pair_id": "second_inaugural_gutenberg_12801",
+    "event": "second_inaugural",
+    "lincoln_source": "loc_mal_4361300",
+    "other_source": "gutenberg_12801",
+    "other_author": "Morse, John T., Jr. (John Torrey)",
+    "consistency_score": 85,
+    "contradictions": [
+      {
+        "lincoln_claim": "The only known manuscript of Lincoln's Second Inaugural Address is a fair copy.",
+        "other_claim": "No mention of the manuscript type.",
+        "type": "omission",
+        "explanation": "Morse does not discuss the manuscript details, which Lincoln specifies.",
+        "severity": 0.2
+      },
+      {
+        "lincoln_claim": "Lincoln revised the ending of the address by pasting a slip of paper over the last two lines and writing the revised version on it.",
+        "other_claim": "No mention of revisions to the address.",
+        "type": "omission",
+        "explanation": "Morse does not mention the specific revisions made by Lincoln.",
+        "severity": 0.3
+      },
+      {
+        "lincoln_claim": "Lincoln retained a set of uncorrected galleys after proofreading the printed copies for the press.",
+        "other_claim": "No mention of galleys or proofreading.",
+        "type": "omission",
+        "explanation": "Morse does not discuss the proofreading process or retention of galleys.",
+        "severity": 0.2
+      }
+    ],
+    "omissions_lincoln": [
+      {
+        "other_claim": "Mr. Lincoln was reëlected with a plurality of 494,567 votes.",
+        "explanation": "Lincoln does not mention his reëlection details in his account."
+      },
+      {
+        "other_claim": "Lincoln expressed that both the North and South prayed to the same God and read the same Bible.",
+        "explanation": "Lincoln does not mention the religious references in his account."
+      },
+      {
+        "other_claim": "Lincoln spoke to a crowd gathered before the White House on April 11, 1865, after the fall of Richmond and Lee's surrender.",
+        "explanation": "Lincoln does not mention the post-inaugural speech in his account."
+      }
+    ],
+    "omissions_other": [],
+    "reasoning": "Both accounts agree on the date and general content of the Second Inaugural Address. Lincoln's account focuses on the physical aspects of the address, such as the manuscript and revisions, while Morse's account provides context about Lincoln's reëlection and the broader themes of the address. The omissions are mostly due to the different focuses of the accounts, with Lincoln concentrating on the document itself and Morse on the political and thematic elements. The consistency score reflects the alignment in factual details but notes the omissions in interpretive and contextual elements.",
+    "prompt_strategy": "chain_of_thought"
+  },
+  {
+    "pair_id": "second_inaugural_gutenberg_14004",
+    "event": "second_inaugural",
+    "lincoln_source": "loc_mal_4361300",
+    "other_source": "gutenberg_14004",
+    "other_author": "Browne, Francis F. (Francis Fisher)",
+    "consistency_score": 90,
+    "contradictions": [],
+    "omissions_lincoln": [
+      {
+        "other_claim": "The address included the phrase 'With Malice toward None, with Charity for All.'",
+        "type": "OMISSION",
+        "explanation": "Lincoln's account does not mention specific phrases from the address.",
+        "severity": 0.2
+      },
+      {
+        "other_claim": "The address was described as eloquent and touching.",
+        "type": "OMISSION",
+        "explanation": "Lincoln's account does not provide a qualitative description of the address.",
+        "severity": 0.3
+      },
+      {
+        "other_claim": "The address emphasized themes of reconciliation and the consequences of the Civil War.",
+        "type": "OMISSION",
+        "explanation": "Lincoln's account does not discuss the thematic content of the address.",
+        "severity": 0.4
+      }
+    ],
+    "omissions_other": [
+      {
+        "lincoln_claim": "The only known manuscript of Lincoln's Second Inaugural Address is a fair copy.",
+        "type": "OMISSION",
+        "explanation": "Browne's account does not mention the existence of the fair copy manuscript.",
+        "severity": 0.2
+      },
+      {
+        "lincoln_claim": "Lincoln revised the ending of the address by pasting a slip of paper over the last two lines and writing the revised version on it.",
+        "type": "OMISSION",
+        "explanation": "Browne's account does not mention Lincoln's revision process.",
+        "severity": 0.3
+      },
+      {
+        "lincoln_claim": "Lincoln retained a set of uncorrected galleys after proofreading the printed copies for the press.",
+        "type": "OMISSION",
+        "explanation": "Browne's account does not mention the uncorrected galleys.",
+        "severity": 0.2
+      }
+    ],
+    "reasoning": "Both accounts agree on the date and significance of Lincoln's Second Inaugural Address. Lincoln's account focuses on the physical aspects of the address, such as the manuscript and revisions, while Browne's account highlights the thematic and emotional content. There are no direct contradictions, but each account omits details covered by the other, leading to a high but not perfect consistency score.",
+    "prompt_strategy": "chain_of_thought"
+  },
+  {
+    "pair_id": "second_inaugural_gutenberg_18379",
+    "event": "second_inaugural",
+    "lincoln_source": "loc_mal_4361300",
+    "other_source": "gutenberg_18379",
+    "other_author": "Charnwood, Godfrey Rathbone Benson, Baron",
+    "consistency_score": 85,
+    "contradictions": [
+      {
+        "lincoln_claim": "The only known manuscript of Lincoln's Second Inaugural Address is a fair copy.",
+        "other_claim": "The Second Inaugural Address is noted for its use of intense religious feeling.",
+        "type": "omission",
+        "explanation": "Lincoln's account focuses on the physical manuscript and revisions, while Charnwood emphasizes the religious tone, which Lincoln does not mention.",
+        "severity": 0.2
+      },
+      {
+        "lincoln_claim": "Lincoln revised the ending of the address by pasting a slip of paper over the last two lines and writing the revised version on it.",
+        "other_claim": "Lincoln's address included the sentiment of 'with malice toward none, with charity toward all, with firmness in the right as God gave him to see the right.'",
+        "type": "omission",
+        "explanation": "Lincoln's account does not mention the specific content of the revisions, while Charnwood highlights a key sentiment from the address.",
+        "severity": 0.3
+      }
+    ],
+    "omissions_lincoln": [
+      "The Second Inaugural Address is noted for its use of intense religious feeling.",
+      "The Second Inaugural Address was read over Lincoln's grave on May 4, 1865.",
+      "Lincoln's address included the sentiment of 'with malice toward none, with charity toward all, with firmness in the right as God gave him to see the right.'",
+      "Lincoln faced significant challenges during his presidency, particularly regarding the issue of secession and the Civil War.",
+      "Lincoln expressed a desire to finish the war before McClellan could become President."
+    ],
+    "omissions_other": [
+      "The only known manuscript of Lincoln's Second Inaugural Address is a fair copy.",
+      "Lincoln revised the ending of the address by pasting a slip of paper over the last two lines and writing the revised version on it.",
+      "Lincoln retained a set of uncorrected galleys after proofreading the printed copies for the press."
+    ],
+    "reasoning": "Both accounts agree on the date and significance of the Second Inaugural Address, but they focus on different aspects. Lincoln's account is more concerned with the physical document and its revisions, while Charnwood emphasizes the content and historical context. There are no direct contradictions, but there are omissions where each account provides details the other does not. The consistency score reflects the overall alignment with some minor discrepancies due to these omissions.",
+    "prompt_strategy": "chain_of_thought"
+  }
+]

@@ -1,0 +1,108 @@
+{
+  "timestamp": "2025-12-02T23:17:49.374648",
+  "summary": {
+    "best_strategy": "chain_of_thought",
+    "best_strategy_std": 4.898979485566356,
+    "self_consistency_stable_rate": 0.6666666666666666,
+    "cohens_kappa": 0.0,
+    "kappa_n_samples": 16,
+    "kappa_interpretation": "Slight agreement"
+  },
+  "ablation_study": {
+    "zero_shot": {
+      "mean": 62.0,
+      "std": 9.797958971132712,
+      "scores": [
+        70,
+        50,
+        50,
+        70,
+        70
+      ],
+      "n": 5
+    },
+    "chain_of_thought": {
+      "mean": 66.0,
+      "std": 4.898979485566356,
+      "scores": [
+        60,
+        60,
+        70,
+        70,
+        70
+      ],
+      "n": 5
+    },
+    "few_shot": {
+      "mean": 46.0,
+      "std": 4.898979485566356,
+      "scores": [
+        40,
+        40,
+        50,
+        50,
+        50
+      ],
+      "n": 5
+    }
+  },
+  "self_consistency": [
+    {
+      "event": "election_night_1860",
+      "pair_id": "election_night_1860_gutenberg_6812",
+      "author": "Hay, John",
+      "scores": [
+        60,
+        65,
+        70,
+        70,
+        60
+      ],
+      "mean": 65.0,
+      "std": 4.47213595499958,
+      "is_stable": true
+    },
+    {
+      "event": "election_night_1860",
+      "pair_id": "election_night_1860_gutenberg_6811",
+      "author": "Ketcham, Henry",
+      "scores": [
+        25,
+        60,
+        60,
+        55,
+        40
+      ],
+      "mean": 48.0,
+      "std": 13.638181696985855,
+      "is_stable": false
+    },
+    {
+      "event": "election_night_1860",
+      "pair_id": "election_night_1860_gutenberg_12801",
+      "author": "Morse, John T., Jr. (John Torrey)",
+      "scores": [
+        60,
+        65,
+        65,
+        70,
+        65
+      ],
+      "mean": 65.0,
+      "std": 3.1622776601683795,
+      "is_stable": true
+    }
+  ],
+  "cohens_kappa": {
+    "kappa": 0.0,
+    "agreement": 0.875,
+    "n_samples": 16,
+    "confusion": {
+      "TP": 14,
+      "TN": 0,
+      "FP": 2,
+      "FN": 0
+    },
+    "interpretation": "Slight agreement"
+  }
+}

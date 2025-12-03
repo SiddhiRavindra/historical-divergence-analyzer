@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "created_at": "2025-12-02T22:41:52.734640",
+    "total_labeled": 16,
+    "total_skipped": 3,
+    "consistent_count": 14,
+    "contradictory_count": 2
+  },
+  "labels": {
+    "election_night_1860_gutenberg_6812": "consistent",
+    "election_night_1860_gutenberg_6811": "consistent",
+    "election_night_1860_gutenberg_12801": "consistent",
+    "election_night_1860_gutenberg_14004": "skip",
+    "election_night_1860_gutenberg_18379": "consistent",
+    "fort_sumter_gutenberg_6811": "consistent",
+    "fort_sumter_gutenberg_12801": "contradictory",
+    "fort_sumter_gutenberg_14004": "consistent",
+    "fort_sumter_gutenberg_18379": "contradictory",
+    "gettysburg_address_gutenberg_6812": "skip",
+    "gettysburg_address_gutenberg_6811": "consistent",
+    "gettysburg_address_gutenberg_12801": "skip",
+    "gettysburg_address_gutenberg_14004": "consistent",
+    "gettysburg_address_gutenberg_18379": "consistent",
+    "second_inaugural_gutenberg_6812": "consistent",
+    "second_inaugural_gutenberg_6811": "consistent",
+    "second_inaugural_gutenberg_12801": "consistent",
+    "second_inaugural_gutenberg_14004": "consistent",
+    "second_inaugural_gutenberg_18379": "consistent"
+  }
+}
