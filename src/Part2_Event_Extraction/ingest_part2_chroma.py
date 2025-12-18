@@ -9,7 +9,7 @@ import time
 import json
 from pathlib import Path
 from typing import Any, Dict, List, Tuple
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 
 import chromadb
 from langchain_text_splitters import RecursiveCharacterTextSplitter
@@ -23,12 +23,27 @@ project_root = Path(__file__).parent.parent.parent
 
 # Try src/.env first (like your reference), else fallback to project_root/.env
 # env_path_src = project_root / "src" / ".env"
-env_path_root = project_root / ".env"
+# env_path_root = project_root / ".env"
 
 # env_path = env_path_src if env_path_src.exists() else env_path_root
-env_path = env_path_root
-print(f"Loading .env from: {env_path}")
-load_dotenv(dotenv_path=env_path, override=True)
+# env_path = env_path_root
+# print(f"Loading .env from: {env_path}")
+# load_dotenv(dotenv_path=env_path, override=True)
+
+def get_secret(key: str, default=None):
+    try:
+        return st.secrets[key]
+    except Exception:
+        return os.getenv(key, default)
+
+CHROMA_API_KEY = get_secret("CHROMA_API_KEY")
+CHROMA_TENANT = get_secret("CHROMA_TENANT")
+CHROMA_DB = get_secret("CHROMA_DB")
+CHROMA_COLLECTION = get_secret("CHROMA_COLLECTION", "lincoln_divergence_claims_v1")
+
+OPENAI_API_KEY = get_secret("OPENAI_API_KEY")
+OPENAI_MODEL = get_secret("OPENAI_MODEL", "gpt-4o-mini")
+
 
 
 def clean_env_value(value):
