@@ -1,0 +1,8 @@
+chromadb
+streamlit
+requests
+openai
+chromadb
+langchain-openai
+langchain-text-splitters
+python-dotenv
