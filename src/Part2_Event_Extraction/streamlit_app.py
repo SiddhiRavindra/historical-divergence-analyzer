@@ -3,7 +3,7 @@ import json
 import re
 import requests
 import streamlit as st
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 from typing import Optional, Dict, Any, List
 
 from rag_pipeline import LincolnVectorStore  # make sure this file contains the class
@@ -12,15 +12,30 @@ from rag_pipeline import LincolnVectorStore  # make sure this file contains the 
 # -------------------------
 # Env + App config
 # -------------------------
-load_dotenv(override=True)
+# load_dotenv(override=True)
 
-CHROMA_API_KEY = os.getenv("CHROMA_API_KEY")
-CHROMA_TENANT = os.getenv("CHROMA_TENANT")
-CHROMA_DB = os.getenv("CHROMA_DB")
-CHROMA_COLLECTION = os.getenv("CHROMA_COLLECTION", "historical_divergence_part2_v1")
+# CHROMA_API_KEY = os.getenv("CHROMA_API_KEY")
+# CHROMA_TENANT = os.getenv("CHROMA_TENANT")
+# CHROMA_DB = os.getenv("CHROMA_DB")
+# CHROMA_COLLECTION = os.getenv("CHROMA_COLLECTION", "historical_divergence_part2_v1")
 
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
+# OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+# OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
+
+def get_secret(key: str, default=None):
+    try:
+        return st.secrets[key]
+    except Exception:
+        return os.getenv(key, default)
+
+CHROMA_API_KEY = get_secret("CHROMA_API_KEY")
+CHROMA_TENANT = get_secret("CHROMA_TENANT")
+CHROMA_DB = get_secret("CHROMA_DB")
+CHROMA_COLLECTION = get_secret("CHROMA_COLLECTION", "lincoln_divergence_claims_v1")
+
+OPENAI_API_KEY = get_secret("OPENAI_API_KEY")
+OPENAI_MODEL = get_secret("OPENAI_MODEL", "gpt-4o-mini")
+
 
 st.set_page_config(page_title="Lincoln Divergence RAG", layout="wide")
 st.title("Historical Divergence RAG: Lincoln vs Other Authors")
@@ -230,7 +245,7 @@ query = st.text_input("Ask a question", "What did Lincoln say about the Union an
 col1, col2 = st.columns(2)
 
 
-if st.button("Retrieve + Answer"):
+if st.button("Search"):
     # Retrieve
     lin_hits = store.search(query, top_k=top_k, event=event_filter or None, source_type="lincoln")
     oth_hits = store.search(query, top_k=top_k, event=event_filter or None, source_type="other_author")
