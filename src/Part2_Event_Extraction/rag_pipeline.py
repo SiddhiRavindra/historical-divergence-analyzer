@@ -9,7 +9,7 @@ import hashlib
 from typing import List, Dict, Optional
 from pathlib import Path
 
-import chromadb
+import ingest_part2_chroma
 from dotenv import load_dotenv
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_openai import OpenAIEmbeddings
