@@ -2,15 +2,12 @@
 Vector Store Module for Lincoln Historical Divergence - RAG (LangChain + OpenAI + Chroma Cloud)
 Indexes Part 2 extracted claims/quotes for fast retrieval by event and corpus (Lincoln vs Others).
 """
-
+import chromadb
 import os
 import json
 import hashlib
 from typing import List, Dict, Optional
 from pathlib import Path
-
-import ingest_part2_chroma
-import chromadb
 from dotenv import load_dotenv
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_openai import OpenAIEmbeddings
